@@ -1,0 +1,18 @@
+title: Landing
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Intro
+    type:  textarea
+
+  text2:
+    label: Text
+    type:  textarea
+
+  bullets:
+    label: Bullets
+    type:  textarea

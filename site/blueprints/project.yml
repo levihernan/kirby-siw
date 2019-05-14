@@ -8,6 +8,9 @@ fields:
   text:
     label: Text
     type:  textarea
+  location:
+    label: Location
+    type:  text
   tags:
     label: Tags
     type: tags

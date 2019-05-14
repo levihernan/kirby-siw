@@ -5,6 +5,27 @@ fields:
   title:
     label: Title
     type:  text
-  text:
+  # text:
+  #   label: Text
+  #   type:  textarea
+
+  texto1:
+    label: Texto1
+    type:  textarea
+
+  header:
+    label: SIW
+    type:  headline
+
+  icon1:
+    label: Social
+    type:  text
+  icon2:
+    label: Innovation
+    type:  text
+  icon3:
+    label: Warehouse
+    type:  text
+  extratext:
     label: Text
     type:  textarea
