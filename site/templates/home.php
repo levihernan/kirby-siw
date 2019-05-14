@@ -46,7 +46,6 @@
               <h2 class="heading">Everyone</h2>
               <p> </p>
               <a href="#" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
-              <?= $page->proyectos()->kirbytext() ?>
             </div>
           </div>
         </div>
@@ -338,7 +337,7 @@
           <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
               <h3 class="subheading">Browse Projects</h3>
-              <!-- <h2 class="mb-1">Recent Posts</h2> -->
+              <?= $page->proyectos()->kirbytext() ?>
             </div>
           </div>
           <div class="row d-flex">
@@ -439,7 +438,7 @@
                 </div>
               </div>
 
-              
+
 
               <div class="col-md-6 mb-4">
                 <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
