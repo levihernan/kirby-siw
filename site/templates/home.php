@@ -349,13 +349,6 @@
                 <div class="blog-entry justify-content-end">
                   <div class="text p-4 mt-1 float-right d-block">
                     <div class="d-flex align-items-center pt-2 mb-4">
-                      <!-- <div class="one">
-                      <span class="day">31</span>
-                    </div> -->
-                    <!-- <div class="two">
-                    <span class="yr">2018</span>
-                    <span class="mos">December</span>
-                  </div> -->
                 </div>
                 <h3 class="heading mt-2"><a href="#"><?= $proyecto->title() ?></a>
                 </h3>
@@ -399,7 +392,7 @@
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-1">About the SIW</h3>
+          <h2 class="mb-1" id="aboutSIW">About the SIW</h3>
           </div>
         </div>
         <div class="row">
