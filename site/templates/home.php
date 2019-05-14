@@ -337,10 +337,10 @@
           <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
               <h3 class="subheading">Browse Projects</h3>
-              <?= $page->proyectos()->kirbytext() ?>
             </div>
           </div>
           <div class="row d-flex">
+            <?= $page->proyectos()->kirbytext() ?>
 
             <?php foreach ($site->find('proyectos')->children() as $proyecto) :?>
 
