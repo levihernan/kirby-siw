@@ -392,7 +392,6 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
           <h2 class="mb-1">About the SIW</h3>
-            <?= $page->extratext()->kirbytext() ?>
 
           </div>
         </div>
@@ -438,7 +437,12 @@
                 </div>
               </div>
 
+              <div class="row">
 
+              <div class="col-md-8 offset-2 text text-center">
+                <?= $page->extratext()->kirbytext() ?>
+              </div>
+            </div>
 
               <div class="col-md-6 mb-4">
                 <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
