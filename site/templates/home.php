@@ -33,7 +33,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Young Innovators</h2>
-              <p> </p>
+              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
             </div>
           </div>
@@ -44,7 +44,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Everyone</h2>
-              <p> </p>
+              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Organizations</h2>
-              <p> </p>
+              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
             </div>
           </div>
