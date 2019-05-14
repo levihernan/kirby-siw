@@ -3,7 +3,7 @@
 
   <?= snippet('navbar') ?>
 
-  <section class="hero-wrap js-fullheight" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/VV-20.png');">
+  <section class="hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/VV-20.png');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start">
@@ -470,7 +470,7 @@
 
 
 
-        <section class="ftco-section ftco-intro" style="background-image: url(<?= $site->url() ?>/assets/images/graphics/crops/VV-22.png);">
+        <section class="ftco-section ftco-intro back-left" style="background-image: url(<?= $site->url() ?>/assets/images/graphics/crops/VV-22.png);">
           <div class="container">
             <div class="row justify-content-end">
               <div class="col-md-6">

@@ -2,22 +2,22 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row mb-5">
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
+      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
         <div class="ftco-footer-widget mb-4">
           <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/argentinalogo.jpg" alt="">
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
+      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
         <div class="ftco-footer-widget mb-4">
           <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/g20logo.png" alt="">
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
+      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
         <div class="ftco-footer-widget mb-4">
           <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/oijlogo.png" alt="">
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 ftco-animate">
+      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
         <div class="ftco-footer-widget mb-4">
           <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/undp.png" alt="">
         </div>

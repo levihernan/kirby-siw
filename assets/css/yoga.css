@@ -32,3 +32,12 @@ img.siw-loguitos {
   display: block !important;
   filter: invert(100);
 }
+
+.back-right{
+  background-size: 60%;
+  background-position: 100%;
+}
+.back-left{
+  background-size: 50%;
+  background-position: 0%;
+}
