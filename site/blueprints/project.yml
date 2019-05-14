@@ -1,5 +1,5 @@
 title: Proyecto
-pages: true
+pages: false
 files: true
 fields:
   title:
@@ -11,6 +11,15 @@ fields:
   location:
     label: Location
     type:  text
+
+  quote:
+    label: Quote
+    type:  text
+
+  photo:
+    label: Foto
+    type:  image
+
   tags:
     label: Tags
     type: tags

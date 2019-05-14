@@ -17,15 +17,15 @@
 
   <section class="ftco-section bg-light">
 
-    <div class="container">
+    <!-- <div class="container">
       <a href="#" class="btn btn-primary d-block px-2 py-4 mb-4">Learn more</a>
-    </div>
+    </div> -->
 
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
           <!-- <h3 class="subheading">texto?</h3> -->
-          <p class="mb-1"><?= $page->texto1()->text() ?></p>
+          <p class="mb-1"><?= $page->texto1()->kirbytext() ?></p>
         </div>
       </div>
       <div class="row">
