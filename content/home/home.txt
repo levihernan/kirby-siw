@@ -20,7 +20,7 @@ Icon3: An integral repository to store and share free tools and ideas to solve g
 
 Extratext: 
 
-The Social Innovation Warehouse has been created to bridge the gap between youth innovative solutions and stakeholders (governments, OOII, NGO´s and other individuals) that can replicate them in other parts of the world, while providing resources for young social innovators to increase their impact and boost their capacity as changemakers.
+The Social Innovation Warehouse has been created to bridge the gap between youth innovative solutions and stakeholders (governments, OOII, NGOs and other individuals) that can replicate them in other parts of the world, while providing resources for young social innovators to increase their impact and boost their capacity as changemakers.
 
 
 The SIW was born during the 2018 **Youth 20** summit, hosted by **Eidos**.
@@ -28,3 +28,7 @@ The SIW was born during the 2018 **Youth 20** summit, hosted by **Eidos**.
 ----
 
 Proyectos: From projects that tackle educational challenges, to sustainable development and employment issues, the Social Innovation Warehouse can help you find a new way to work towards a positive impact:
+
+----
+
+Capacity: The Capacity Building Program is a 5-week, online, learn-by-doing training for young innovators to explore the multiple dimensions to be considered when delivering social innovation projects with a strong focus on impact.
