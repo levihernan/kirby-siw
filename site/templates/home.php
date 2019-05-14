@@ -370,7 +370,7 @@
                     $tags = $proyecto->tags()->split();
                   ?>
                   <?php foreach($tags as $tag): ?>
-                    <?= $tag ?>
+                    <?= strtoupper($tag) ?>
                   <?php endforeach ?>
                 </p>
               </div>
