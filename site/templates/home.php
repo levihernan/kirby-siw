@@ -466,10 +466,10 @@
             <div class="row justify-content-end">
               <div class="col-md-6 ftco-animate">
                 <div class="heading-section ftco-animate">
-                  <h2 class="mb-4">Capacity Building Programe</h2>
+                  <h2 class="mb-4">Capacity Building Programme</h2>
                 </div>
                 <p class="">
-                  <?= $page->extratext()->kirbytext() ?>
+                  <?= $page->capacity()->kirbytext() ?>
                 </p>
                 <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more</a>
 
