@@ -393,6 +393,8 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
           <h2 class="mb-1" id="aboutSIW">About the SIW</h3>
+            <?= $page->extratext()->kirbytext() ?>
+
           </div>
         </div>
         <div class="row">
@@ -440,8 +442,7 @@
               <div class="col-md-12">
                 <div class="services ftco-animate text-center">
                   <div class="text mt-4">
-                    <!-- <h3>Warehouse</h3> -->
-                    <?= $page->extratext()->kirbytext() ?>
+                    <h3>Warehouse</h3>
                   </div>
                 </div>
               </div>
@@ -466,11 +467,13 @@
         <section class="ftco-section ftco-intro back-left" style="background-image: url(<?= $site->url() ?>/assets/images/graphics/crops/VV-22.png);">
           <div class="container">
             <div class="row justify-content-end">
-              <div class="col-md-6">
+              <div class="col-md-6 ftco-animate">
                 <div class="heading-section ftco-animate">
                   <h2 class="mb-4">Capacity Building Programe</h2>
                 </div>
-                <p class="ftco-animate">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <p class="">
+                  <?= $page->extratext()->kirbytext() ?>
+                </p>
                 <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more</a>
 
               </div>
