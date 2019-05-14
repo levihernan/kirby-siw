@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
+html{
+  font-family: Montserrat
+}
+
+
+.footer-logo{
+  width: 100%
+}
+
+.ftco-footer-widget{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo-siw{
+  /* filter: invert(100); */
+}
+.navbar .logo-siw{
+  display: none;
+}
+.scrolled .logo-siw{
+  display: block !important;
+  filter: invert(100);
+}
