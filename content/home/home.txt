@@ -2,20 +2,29 @@ Title: Home
 
 ----
 
-Texto1: texto 1asjkdjklasjdklasjklsjlkd
+Texto1: The Social Innovation Warehouse is an online repository of youth-led scalable projects aligned to the SDGs. **(link: #aboutSIW text: Learn more)**.
 
 ----
 
-Icon1: social
+Icon1: A collaborative platform with projects created by young leaders working to create positive impact.
 
 ----
 
-Icon2: innovaion
+Icon2: Change your approach and find new ways of tackling old problems.
 
 ----
 
-Icon3: warehouse
+Icon3: An integral repository to store and share free tools and ideas to solve global challenges.
 
 ----
 
-Extratext: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Extratext: 
+
+The Social Innovation Warehouse has been created to bridge the gap between youth innovative solutions and stakeholders (governments, OOII, NGO´s and other individuals) that can replicate them in other parts of the world, while providing resources for young social innovators to increase their impact and boost their capacity as changemakers.
+
+
+The SIW was born during the 2018 **Youth 20** summit, hosted by **Eidos**.
+
+----
+
+Proyectos: From projects that tackle educational challenges, to sustainable development and employment issues, the Social Innovation Warehouse can help you find a new way to work towards a positive impact:
