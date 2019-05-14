@@ -356,16 +356,16 @@
                     <span class="mos">December</span>
                   </div> -->
                 </div>
-                <h3 class="heading mt-2"><a href="#">Young Women Doing Yoga</a>
+                <h3 class="heading mt-2"><a href="#"><?= $proyecto->title() ?></a>
                 </h3>
                 <p>
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                  <?= $proyecto->text()->text() ?>
                 </p>
                 <p>
-                  <i class="fa fa-globe"></i> Somewhere
+                  <i class="fa fa-globe"></i> <?= $proyecto->location()->text() ?>
                 </p>
                 <p>
-                  <i class="fa fa-check"></i> CDG 1, CDG 2
+                  <i class="fa fa-check"></i> <?= $proyecto->tags() ?>
                 </p>
               </div>
             </div>
