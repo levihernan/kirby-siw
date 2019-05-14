@@ -392,7 +392,6 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
           <h2 class="mb-1">About the SIW</h3>
-
           </div>
         </div>
         <div class="row">
@@ -439,7 +438,7 @@
 
               <div class="row">
 
-              <div class="col-md-8 offset-2 text text-center">
+              <div class="col-md-8 offset-2 text text-center mb-4">
                 <?= $page->extratext()->kirbytext() ?>
               </div>
             </div>
