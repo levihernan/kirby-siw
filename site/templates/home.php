@@ -46,6 +46,7 @@
               <h2 class="heading">Everyone</h2>
               <p> </p>
               <a href="#" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
+              <?= $page->proyectos()->kirbytext() ?>
             </div>
           </div>
         </div>

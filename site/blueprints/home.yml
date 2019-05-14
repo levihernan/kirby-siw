@@ -13,6 +13,10 @@ fields:
     label: Texto1
     type:  textarea
 
+  proyectos:
+    label: Texto Proyectos
+    type:  textarea
+
   header:
     label: SIW
     type:  headline
