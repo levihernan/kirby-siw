@@ -388,11 +388,11 @@
 
   </section>
 
-  <section class="ftco-section ftco-section-services bg-light">
+  <section  id="aboutSIW" class="ftco-section ftco-section-services bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-1" id="aboutSIW">About the SIW</h3>
+          <h2 class="mb-1">About the SIW</h3>
             <?= $page->extratext()->kirbytext() ?>
 
           </div>
@@ -439,13 +439,7 @@
                 </div>
               </div>
 
-              <div class="col-md-12">
-                <div class="services ftco-animate text-center">
-                  <div class="text mt-4">
-                    <h3>Warehouse</h3>
-                  </div>
-                </div>
-              </div>
+              
 
               <div class="col-md-6 mb-4">
                 <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
