@@ -365,7 +365,13 @@
                   <i class="fa fa-globe"></i> <?= $proyecto->location()->text() ?>
                 </p>
                 <p>
-                  <i class="fa fa-check"></i> <?= $proyecto->tags() ?>
+                  <i class="fa fa-check"></i>
+                  <?php
+                    $tags = $proyecto->tags()->split();
+                  ?>
+                  <?php foreach($tags as $tag): ?>
+                    <?= $tag ?>
+                  <?php endforeach ?>
                 </p>
               </div>
             </div>
