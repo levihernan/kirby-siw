@@ -406,7 +406,8 @@
           <div class="col-md-4">
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
-                <span class="flaticon-like"></span>
+                <!-- <span class="flaticon-like"></span> -->
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SOCIAL.png" alt="">
               </div>
               <div class="text mt-4">
                 <h3>Social</h3>
@@ -419,7 +420,9 @@
           <div class="col-md-4">
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
-                <span class="flaticon-like"></span>
+                <!-- <span class="flaticon-like"></span> -->
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - INNOVATION.png" alt="">
+
               </div>
               <div class="text mt-4">
                 <h3>Innovation</h3>
@@ -430,7 +433,9 @@
             <div class="col-md-4">
               <div class="services ftco-animate text-center">
                 <div class="icon d-flex justify-content-center align-items-center m-auto">
-                  <span class="flaticon-like"></span>
+                  <!-- <span class="flaticon-like"></span> -->
+                  <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - WAREHOUSE.png" alt="">
+
                 </div>
                 <div class="text mt-4">
                   <h3>Warehouse</h3>
