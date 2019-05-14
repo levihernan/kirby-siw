@@ -1,14 +1,14 @@
 <? snippet('header') ?>
 <body>
-  
+
   <?= snippet('navbar') ?>
 
-  <section class="hero-wrap js-fullheight" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/graphics/crops/VV-20.png');">
+  <section class="hero-wrap js-fullheight" style="background-image: url('<? $site->url() ?>/assets/images/graphics/crops/VV-20.png');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start">
         <div class="col-md-8 ftco-animate">
-          <img class="logo-siw" src="<? $kirby->url('assets') ?>/assets/images/Logo SIW.png" alt="" height="400px">
+          <img class="logo-siw" src="<? $site->url() ?>/assets/images/Logo SIW.png" alt="" height="400px">
           <!-- <p><a href="#" class="btn btn-primary p-3 px-4">15 Day Free Trial</a></p> -->
         </div>
       </div>
@@ -79,7 +79,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-01.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-01.png');">
               <div class="text p-1 text-center">
                 <p>
                   1.- Erradicar la pobreza en todas sus formas en todo el mundo.
@@ -93,7 +93,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-02.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-02.png');">
               <div class="text p-1 text-center">
                 <p>
                   2.- Poner fin al hambre, conseguir la seguridad alimentaria y una mejor nutrición, y promover la agricultura sostenible.
@@ -107,7 +107,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-03.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-03.png');">
               <div class="text p-1 text-center">
                 <p>
                   3.- Garantizar una vida saludable y promover el bienestar para todos para todas las edades.
@@ -121,7 +121,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-04.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-04.png');">
               <div class="text p-1 text-center">
                 <p>
                   4.- Garantizar una educación de calidad inclusiva y equitativa, y promover las oportunidades de aprendizaje permanente para todos.
@@ -135,7 +135,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-05.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-05.png');">
               <div class="text p-1 text-center">
                 <p>
                   5.- Alcanzar la igualdad entre los géneros y empoderar a todas las mujeres y niñas.
@@ -149,7 +149,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-06.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-06.png');">
               <div class="text p-1 text-center">
                 <p>
                   6.- Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos.
@@ -163,7 +163,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-07.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-07.png');">
               <div class="text p-1 text-center">
                 <p>
                   7.- Asegurar el acceso a energías asequibles, fiables, sostenibles y modernas para todos.
@@ -177,7 +177,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-08.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-08.png');">
               <div class="text p-1 text-center">
                 <p>
                   8.- Fomentar el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo, y el trabajo decente para todos.
@@ -191,7 +191,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-09.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-09.png');">
               <div class="text p-1 text-center">
                 <p>
                   9.- Desarrollar infraestructuras resilientes, promover la industrialización inclusiva y sostenible, y fomentar la innovación.
@@ -205,7 +205,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-10.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-10.png');">
               <div class="text p-1 text-center">
                 <p>
                   10.- Reducir las desigualdades entre países y dentro de ellos.
@@ -219,7 +219,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-11.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-11.png');">
               <div class="text p-1 text-center">
                 <p>
                   11.- Conseguir que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.
@@ -233,7 +233,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-12.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-12.png');">
               <div class="text p-1 text-center">
                 <p>
                   12.- Garantizar las pautas de consumo y de producción sostenible.
@@ -247,7 +247,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-13.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-13.png');">
               <div class="text p-1 text-center">
                 <p>
                   13.- Tomar medidas urgentes para combatir el cambio climático y sus efectos.
@@ -261,7 +261,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-14.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-14.png');">
               <div class="text p-1 text-center">
                 <p>
                   14.- Conservar y utilizar de forma sostenible los océanos, mares y recursos marinos para lograr el desarrollo sostenible.
@@ -275,7 +275,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-15.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-15.png');">
               <div class="text p-1 text-center">
                 <p>
                   15.- Proteger, restaurar y promover la utilización sostenible de los ecosistemas terrestres.
@@ -289,7 +289,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-16.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-16.png');">
               <div class="text p-1 text-center">
                 <p>
                   16.- Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar acceso a la justicia para todos y crear instituciones eficaces, responsables e inclusivas a todos los niveles.
@@ -303,7 +303,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG goals_icons-individual-rgb-17.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-17.png');">
               <div class="text p-1 text-center">
                 <p>
                   17.- Fortalecer los medios de ejecución y reavivar la alianza mundial para el desarrollo sostenible.
@@ -316,7 +316,7 @@
 
         <div class="col-md-2 col-sm-4">
           <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $kirby->url('assets') ?>/assets/images/E_SDG_logo_with_UN_Emblem_square_rgb.png');">
+            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<? $site->url() ?>/assets/images/E_SDG_logo_with_UN_Emblem_square_rgb.png');">
               <div class="text p-1 text-center">
                 <p>
                   UNESCO (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura)                 </div>
@@ -458,7 +458,7 @@
 
 
 
-        <section class="ftco-section ftco-intro" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/graphics/crops/VV-22.png);">
+        <section class="ftco-section ftco-intro" style="background-image: url(<? $site->url() ?>/assets/images/graphics/crops/VV-22.png);">
           <div class="container">
             <div class="row justify-content-end">
               <div class="col-md-6">
@@ -487,7 +487,7 @@
 
               <div class="col-lg-3 d-flex">
                 <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/trainer-1.jpg);"></div>
+                  <div class="img" style="background-image: url(<? $site->url() ?>/assets/images/trainer-1.jpg);"></div>
                   <div class="text bg-white p-4 ftco-animate">
                     <span class="subheading">Owner / Head Coach</span>
                     <h3><a href="#">Valentina Varas</a></h3>
@@ -498,7 +498,7 @@
 
               <div class="col-lg-3 d-flex">
                 <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/trainer-2.jpg);"></div>
+                  <div class="img" style="background-image: url(<? $site->url() ?>/assets/images/trainer-2.jpg);"></div>
                   <div class="text bg-white p-4 ftco-animate">
                     <span class="subheading">Owner / Head Coach</span>
                     <h3><a href="#">Valentina Varas</a></h3>
@@ -509,7 +509,7 @@
 
               <div class="col-lg-3 d-flex">
                 <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/trainer-3.jpg);"></div>
+                  <div class="img" style="background-image: url(<? $site->url() ?>/assets/images/trainer-3.jpg);"></div>
                   <div class="text bg-white p-4 ftco-animate">
                     <span class="subheading">Owner / Head Coach</span>
                     <h3><a href="#">Valentina Varas</a></h3>
@@ -520,7 +520,7 @@
 
               <div class="col-lg-3 d-flex">
                 <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/trainer-4.jpg);"></div>
+                  <div class="img" style="background-image: url(<? $site->url() ?>/assets/images/trainer-4.jpg);"></div>
                   <div class="text bg-white p-4 ftco-animate">
                     <span class="subheading">Owner / Head Coach</span>
                     <h3><a href="#">Valentina Varas</a></h3>
@@ -610,7 +610,7 @@
                   </span>
                 </div>
                 <div class="d-flex align-items-center">
-                  <div class="user-img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/person_1.jpg)">
+                  <div class="user-img" style="background-image: url(<? $site->url() ?>/assets/images/person_1.jpg)">
                   </div>
                   <div class="ml-4">
                     <p class="name">Gabby Smith</p>
@@ -631,7 +631,7 @@
                 </div>
 
                 <div class="d-flex align-items-center">
-                  <div class="user-img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/person_2.jpg)">
+                  <div class="user-img" style="background-image: url(<? $site->url() ?>/assets/images/person_2.jpg)">
                   </div>
                   <div class="ml-4">
                     <p class="name">Floyd Weather</p>
@@ -652,7 +652,7 @@
                 </div>
 
                 <div class="d-flex align-items-center">
-                  <div class="user-img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/person_3.jpg)">
+                  <div class="user-img" style="background-image: url(<? $site->url() ?>/assets/images/person_3.jpg)">
                   </div>
                   <div class="ml-4">
                     <p class="name">James Dee</p>
@@ -673,7 +673,7 @@
                 </div>
 
                 <div class="d-flex align-items-center">
-                  <div class="user-img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/person_4.jpg)">
+                  <div class="user-img" style="background-image: url(<? $site->url() ?>/assets/images/person_4.jpg)">
                   </div>
                   <div class="ml-4">
                     <p class="name">Lance Roger</p>
@@ -694,7 +694,7 @@
                 </div>
 
                 <div class="d-flex align-items-center">
-                  <div class="user-img" style="background-image: url(<? $kirby->url('assets') ?>/assets/images/person_2.jpg)">
+                  <div class="user-img" style="background-image: url(<? $site->url() ?>/assets/images/person_2.jpg)">
                   </div>
                   <div class="ml-4">
                     <p class="name">Kenny Bufer</p>
