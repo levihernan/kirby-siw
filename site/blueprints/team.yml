@@ -1,0 +1,11 @@
+title: Team
+pages: false
+files: true
+  sort: true
+  fields:
+    title:
+      label: Name
+      type:  text
+    role:
+      label: Role
+      type:  text

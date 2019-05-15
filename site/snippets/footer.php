@@ -58,6 +58,15 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="<?= $site->url() ?>/assets/js/google-map.js"></script>
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
+  <script src="<?= $site->url() ?>/assets/js/bootstrap-tooltip.js"></script>
+  <script type="text/javascript">
+  $( document ).ready(function() {
+    console.log( "ready!" );
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  });
+  </script>
 
 </body>
 </html>

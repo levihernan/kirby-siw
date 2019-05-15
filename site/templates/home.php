@@ -33,7 +33,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Young Innovators</h2>
-              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
+              <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
             </div>
           </div>
@@ -44,7 +44,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Everyone</h2>
-              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
+              <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <div class="block-7">
             <div class="text-center">
               <h2 class="heading">Organizations</h2>
-              <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
+              <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
               <a href="#" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
             </div>
           </div>
@@ -66,7 +66,7 @@
   </section>
 
   <section class="ftco-section">
-    <div class="container-fluid">
+    <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-12 heading-section ftco-animate text-center">
           <h3 class="subheading">UNDP</h3>
@@ -74,261 +74,24 @@
         </div>
       </div>
 
-      <div class="row no-gutters">
+    <div class="row">
+      <?php foreach ($page->find('sdgs')->files() as $sdg): ?>
 
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-01.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  1.- Erradicar la pobreza en todas sus formas en todo el mundo.
-
-                </p>
-              </div>
-            </a>
-          </div>
+        <div class="col-md-2 my-2">
+          <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
         </div>
 
+      <?php endforeach ?>
 
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-02.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  2.- Poner fin al hambre, conseguir la seguridad alimentaria y una mejor nutrición, y promover la agricultura sostenible.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
+    </div>
+  </div>
 
 
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-03.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  3.- Garantizar una vida saludable y promover el bienestar para todos para todas las edades.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
 
 
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-04.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  4.- Garantizar una educación de calidad inclusiva y equitativa, y promover las oportunidades de aprendizaje permanente para todos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
 
 
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-05.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  5.- Alcanzar la igualdad entre los géneros y empoderar a todas las mujeres y niñas.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-06.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  6.- Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-07.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  7.- Asegurar el acceso a energías asequibles, fiables, sostenibles y modernas para todos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-08.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  8.- Fomentar el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo, y el trabajo decente para todos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-09.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  9.- Desarrollar infraestructuras resilientes, promover la industrialización inclusiva y sostenible, y fomentar la innovación.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-10.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  10.- Reducir las desigualdades entre países y dentro de ellos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-11.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  11.- Conseguir que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-12.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  12.- Garantizar las pautas de consumo y de producción sostenible.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-13.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  13.- Tomar medidas urgentes para combatir el cambio climático y sus efectos.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-14.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  14.- Conservar y utilizar de forma sostenible los océanos, mares y recursos marinos para lograr el desarrollo sostenible.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-15.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  15.- Proteger, restaurar y promover la utilización sostenible de los ecosistemas terrestres.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-16.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  16.- Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar acceso a la justicia para todos y crear instituciones eficaces, responsables e inclusivas a todos los niveles.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG goals_icons-individual-rgb-17.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  17.- Fortalecer los medios de ejecución y reavivar la alianza mundial para el desarrollo sostenible.
-
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4">
-          <div class="package-program ftco-animate">
-            <a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url('<?= $site->url() ?>/assets/images/E_SDG_logo_with_UN_Emblem_square_rgb.png');">
-              <div class="text p-1 text-center">
-                <p>
-                  UNESCO (Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura)                 </div>
-                </a>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-      </section>
+</section>
 
       <div id="map" class="map"></div>
 
@@ -340,35 +103,37 @@
             </div>
           </div>
           <div class="row d-flex">
-            <?= $page->proyectos()->kirbytext() ?>
+            <div class="col-md-8 offset-2 text text-center mb-4">
+              <?= $page->proyectos()->kirbytext() ?>
+            </div>
 
-            <?php foreach ($site->find('proyectos')->children() as $proyecto) :?>
-
+            <?php foreach ($site->find('proyectos')->children()->shuffle()->limit(6) as $proyecto) :?>
               <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry justify-content-end">
                   <div class="text p-4 mt-1 float-right d-block">
                     <div class="d-flex align-items-center pt-2 mb-4">
+                    </div>
+                    <h3 class="heading mt-2"><a href="#"><?= $proyecto->title() ?></a>
+                    </h3>
+                    <p>
+                      <?= $proyecto->text()->text() ?>
+                    </p>
+                    <p>
+                      <i class="fa fa-globe"></i> <?= $proyecto->location()->text() ?>
+                    </p>
+                    <p>
+                      <i class="fa fa-check"></i>
+                      <?php
+                      $tags = $proyecto->tags()->split();
+                      ?>
+                      <?php foreach($tags as $tag): ?>
+                        <?= strtoupper($tag) ?>
+                      <?php endforeach ?>
+                    </p>
+                  </div>
                 </div>
-                <h3 class="heading mt-2"><a href="#"><?= $proyecto->title() ?></a>
-                </h3>
-                <p>
-                  <?= $proyecto->text()->text() ?>
-                </p>
-                <p>
-                  <i class="fa fa-globe"></i> <?= $proyecto->location()->text() ?>
-                </p>
-                <p>
-                  <i class="fa fa-check"></i>
-                  <?php
-                    $tags = $proyecto->tags()->split();
-                  ?>
-                  <?php foreach($tags as $tag): ?>
-                    <?= strtoupper($tag) ?>
-                  <?php endforeach ?>
-                </p>
               </div>
-            </div>
-          </div>
+
 
         <?php endforeach ?>
 
@@ -479,62 +244,27 @@
 
 
         <section class="ftco-section">
-          <div class="container-fluid">
+          <div class="container">
             <div class="row justify-content-center mb-5">
               <div class="col-md-12 heading-section text-center ftco-animate">
-                <h3 class="subheading">Coaches</h3>
+                <h3 class="subheading">textito</h3>
                 <h2 class="mb-1">Meet Our Team</h2>
               </div>
             </div>
+
             <div class="row">
+              <?php foreach ($page->find('team')->files() as $team): ?>
 
+                <div class="col my-2 coach ftco-animate">
+                  <img class="sdg-image" src="<?= $site->url.'/'.$team->uri() ?>" alt="">
+                  <div class="text text-center">
 
-              <div class="col-lg-3 d-flex">
-                <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<?= $site->url() ?>/assets/images/trainer-1.jpg);"></div>
-                  <div class="text bg-white p-4 ftco-animate">
-                    <span class="subheading">Owner / Head Coach</span>
-                    <h3><a href="#">Valentina Varas</a></h3>
-                    <p></p>
+                    <span class="subheading"><?= $team->role()->text() ?></span>
+                    <h3><a><?= $team->title()->text() ?></a></h3>
                   </div>
                 </div>
-              </div>
 
-              <div class="col-lg-3 d-flex">
-                <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<?= $site->url() ?>/assets/images/trainer-2.jpg);"></div>
-                  <div class="text bg-white p-4 ftco-animate">
-                    <span class="subheading">Owner / Head Coach</span>
-                    <h3><a href="#">Valentina Varas</a></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 d-flex">
-                <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<?= $site->url() ?>/assets/images/trainer-3.jpg);"></div>
-                  <div class="text bg-white p-4 ftco-animate">
-                    <span class="subheading">Owner / Head Coach</span>
-                    <h3><a href="#">Valentina Varas</a></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 d-flex">
-                <div class="coach align-items-stretch">
-                  <div class="img" style="background-image: url(<?= $site->url() ?>/assets/images/trainer-4.jpg);"></div>
-                  <div class="text bg-white p-4 ftco-animate">
-                    <span class="subheading">Owner / Head Coach</span>
-                    <h3><a href="#">Valentina Varas</a></h3>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-
-
-
+              <?php endforeach ?>
             </div>
           </div>
         </section>
