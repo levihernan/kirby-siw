@@ -1,0 +1,14 @@
+title: Project
+pages: true
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+
+  countries:
+    label: Countries
+    type:  tags

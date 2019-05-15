@@ -70,7 +70,7 @@
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-12 heading-section ftco-animate text-center">
         <h3 class="subheading">UNDP</h3>
-        <h2 class="mb-1">Objetivos de Desarrollo Sostenible</h2>
+        <h2 class="mb-1">Sustainable Development Goals</h2>
       </div>
     </div>
 
