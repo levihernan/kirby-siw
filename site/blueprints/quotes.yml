@@ -1,0 +1,17 @@
+title: Testimony
+pages: false
+files: true
+  sort: true
+  fields:
+    title:
+      label: Title
+      type:  text
+    text:
+      label: Text
+      type:  text
+    quoter:
+      label: Name
+      type:  text
+    extra:
+      label: Extra
+      type:  text

@@ -10,4 +10,3 @@ history:
   - capacity-building-programme
   - home
   - proyectos/proyecto-1
-  - proyectos/proyecto-2
