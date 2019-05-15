@@ -140,7 +140,7 @@
     </div>
   </div>
   <div class="container">
-    <a href="#" class="btn btn-primary d-block px-2 my-4">Browse all Projects</a>
+    <a href="#" class="btn btn-primary d-block px-2 py-4 my-3">Browse all Projects</a>
   </div>
 
 </section>
