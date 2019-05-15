@@ -95,7 +95,7 @@
 
 <div id="map" class="map"></div>
 
-<section class="ftco-section bg-light">
+<section class="ftco-section bg-light hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/bubbles/Asset 52.png');">
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">

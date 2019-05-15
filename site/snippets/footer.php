@@ -7,7 +7,7 @@
         <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
         <h3 class="subheading">Inspired by</h3>
         <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
-        <h3 class="subheading">In collaboration with</h3>
+        <h3 class="subheading mb-3">In collaboration with</h3>
     </div>
     </div>
 <div class="row h-100">
