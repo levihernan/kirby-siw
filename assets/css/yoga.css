@@ -79,4 +79,6 @@ img.siw-loguitos {
   position: absolute;
     opacity: .3;
     margin: -4em 4em;
+    margin-left: 30%;
+    filter: drop-shadow(0 0 5px #0003);
 }
