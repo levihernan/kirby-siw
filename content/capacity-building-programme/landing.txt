@@ -2,51 +2,67 @@ Title: Capacity Building Programme
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: The Capacity Building Program is a 5-week, online, learn-by-doing training for young innovators to explore the multiple dimensions to be considered when delivering social innovation projects with a strong focus on impact.
 
 ----
 
-Text2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text2: 
+
+Young innovators already have knowledge and skills they can share to inspire fellow leaders. Rather that imposing content, the learning experience has been designed to stimulate participants to engage with the topics they consider relevant for their own context and encourage them to guide their peers on topics they already have experience in. Depending on their Learning Journey, young innovators may go through all or just some of the topics.
+
+We aim for young innovators to: 
+- Develop a better understanding of the different elements of impact assessment
+- Understand the options, risks and opportunities of scaling up
+- Understand the multiple factors involved in a economically sustainable project, even if the project is not considered a social enterprise. 
+- Develop skills and connections that can help them accomplish their goals.
 
 ----
 
 Bullets: 
 
-titulo
-- esto es un bullet
-- esto tambien
-- esto es un bullet
-- esto tambien
-- esto es un bullet
+Project Management
+- Understanding your project
+- Business model
+- Impact Management
+- Useful PM resources
 
-titulo
-- esto tambien
-- esto es un bullet
-- esto tambien
-- esto es un bullet
-- esto tambien
+Context
+- Market Analysis: Understanding your context
+- Sociotechnical systems of innovation.
+- Partnerships
+- SDGs
 
-titulo
-- esto es un bullet
-- esto tambien
-- esto es un bullet
-- esto tambien
-- esto es un bullet
 
-titulo
-- esto tambien
-- esto es un bullet
-- esto tambien
-- esto es un bullet
-- esto tambien
 
-titulo
-- esto es un bullet
-- esto tambien
-- esto es un bullet
-- esto tambien
-- esto es un bullet
 
-titulo
-- esto tambien
-- esto es un bullet
+Team
+- Understanding your people
+- Identity and culture
+- Understanding your project: Operations
+
+Impact Assessment
+- Problem and solution
+- Impact Assessment Intro
+- Making impact visible
+- UX Design Applied to impact Assessment
+- Social value
+- Communicating impact
+
+Funding
+- Sources of revenue
+- Applying to grants
+- Selling Products & Services
+- Finding Donors
+- Crowdfunding
+- Seeking investment
+- Social Investment
+- Debt
+
+Scale and growth
+- What does it mean to be scalable?
+- Scale and impact tradeoff
+- Scale business model
+- Business Plan
+- Context and opportunities to scale
+- Assess your readiness to grow
+- Replication readiness
