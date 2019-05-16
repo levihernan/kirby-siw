@@ -23,29 +23,14 @@
 
   <section class="ftco-section ftco-section-services bg-light">
     <div class="container">
-        <p>
+
           <?= $page->text2()->text()->kirbytext() ?>
-        </p>
+
         <div class="row">
         <div class="col ftco-animate bullet-div">
           <?= $page->bullets()->kirbytext() ?>
         </div>
-        <!-- <div class="col-md-4">
-          <ul class="mt-5">
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="mt-5">
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-          </ul>
-        </div> -->
+        
 
 
 

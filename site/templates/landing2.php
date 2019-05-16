@@ -22,13 +22,16 @@
   </section>
 
   <section class="ftco-section ftco-section-services bg-light">
+
+    <!-- <img class="alf" src="<?= $site->url() ?>/assets/images/alf.png" alt="">
+
+    <svg >
+          <path id="myClip"  d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/>
+
+    </svg> -->
+
     <div class="container">
-        <p>
-          <?= $page->text2()->text() ?>
-        </p>
         <div class="row">
-
-
           <div class="col-md-3">
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
@@ -80,24 +83,12 @@
               </div>
             </div>
           </div>
-
-
-        <!-- <div class="col-md-4">
-          <ul class="mt-5">
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-          </ul>
+          <div class="row my-3">
+          <?= $page->text2()->kirbytext() ?>
         </div>
-        <div class="col-md-4">
-          <ul class="mt-5">
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-            <li class="ftco-animate">Yoga boosts brain power</li>
-          </ul>
-        </div> -->
+
+
+
 
       </div>
     </div>

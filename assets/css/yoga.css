@@ -55,3 +55,7 @@ img.siw-loguitos {
     page-break-inside: avoid;           /* Theoretically FF 20+ */
     break-inside: avoid-column;
 }
+
+.alf {
+  clip-path: url(#myClip);
+}

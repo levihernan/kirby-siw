@@ -6,7 +6,7 @@
         <h3 class="subheading">Powered by</h3>
         <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
         <h3 class="subheading">Inspired by</h3>
-        <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
+        <img class="footer-logo" src="<?= $site->url() ?>/assets/images/SDG logo.png" alt="">
         <h3 class="subheading mb-3">In collaboration with</h3>
     </div>
     </div>
@@ -17,30 +17,6 @@
            </div>
     <?php endforeach ?>
   </div>
-
-    <!-- <div class="row mb-5">
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
-        <div class="ftco-footer-widget mb-4">
-          <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/argentinalogo.jpg" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
-        <div class="ftco-footer-widget mb-4">
-          <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/g20logo.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
-        <div class="ftco-footer-widget mb-4">
-          <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/oijlogo.png" alt="">
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-5 mb-md-5 col-sm-6 ftco-animate">
-        <div class="ftco-footer-widget mb-4">
-          <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logos/undp.png" alt="">
-        </div>
-      </div>
-
-    </div> -->
 
     </div>
   </footer>
