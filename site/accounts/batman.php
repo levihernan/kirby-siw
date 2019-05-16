@@ -7,8 +7,8 @@ email: nan@maran.co
 language: en
 role: admin
 history:
+  - nominate
   - home/sdgs
   - proyectos/proyecto-1
   - proyectos
   - capacity-building-programme
-  - home

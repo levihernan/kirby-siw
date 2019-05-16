@@ -65,7 +65,7 @@
   <script src="<?= $site->url() ?>/assets/js/bootstrap-datepicker.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.timepicker.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsrDgPQa5TxygzUaLU8sJl_hIe_uK_muY&callback=initMap"></script>
   <script src="<?= $site->url() ?>/assets/js/google-map.js"></script>
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
   <script src="<?= $site->url() ?>/assets/js/bootstrap-tooltip.js"></script>

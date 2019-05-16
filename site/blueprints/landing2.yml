@@ -1,0 +1,27 @@
+title: Landing
+pages: false
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Intro
+    type:  textarea
+
+  text2:
+    label: Text
+    type:  textarea
+
+  icon1:
+    label: Icon1
+    type:  text
+  icon2:
+    label: Icon2
+    type:  text
+  icon3:
+    label: Icon3
+    type:  text
+  icon4:
+    label: Icon4
+    type:  text

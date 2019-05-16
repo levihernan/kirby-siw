@@ -10,7 +10,7 @@
       <div class="row justify-content-end">
         <div class="col-md-6">
           <div class="heading-section ftco-animate">
-            <h2 class="mb-4">Capacity Building Programme</h2>
+            <h2 class="mb-4"><?= $page->title()->text() ?></h2>
           </div>
           <p class="ftco-animate">
             <?= $page->text()->text() ?>
@@ -24,7 +24,7 @@
   <section class="ftco-section ftco-section-services bg-light">
     <div class="container">
         <p>
-          <?= $page->text2()->text() ?>
+          <?= $page->text2()->text()->kirbytext() ?>
         </p>
         <div class="row">
         <div class="col ftco-animate bullet-div">

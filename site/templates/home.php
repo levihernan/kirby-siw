@@ -15,7 +15,9 @@
     </div>
   </section>
 
+
   <section class="ftco-section bg-light">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
 
     <!-- <div class="container">
     <a href="#" class="btn btn-primary d-block px-2 py-4 mb-4">Learn more</a>
