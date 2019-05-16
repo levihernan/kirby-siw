@@ -8,6 +8,7 @@ fields:
   text:
     label: Text
     type:  textarea
+
   location:
     label: Location
     type:  text
@@ -19,8 +20,13 @@ fields:
   photo:
     label: Foto
     type:  image
+    required: true
 
   tags:
     label: Tags
     type: tags
     lower: true
+
+  text2:
+    label: Texto largo
+    type:  textarea

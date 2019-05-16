@@ -45,7 +45,7 @@ img.siw-loguitos {
 .sdg-image{
   width: 100%;
   border-radius: 3px;
-      margin-bottom: -40px;
+      /* margin-bottom: -40px; */
 }
 
 .bullet-div{
@@ -59,4 +59,18 @@ img.siw-loguitos {
 
 .alf {
   clip-path: url(#myClip);
+  position: absolute;
+    left: 10px;
+}
+.fixed-height{
+  display: block;
+  height: 400px;
+}
+
+.sdgs-container p{
+  display: none;
+}
+
+.sdg-1 > p.sdg-1, .sdg-2 > p.sdg-2, .sdg-3 > p.sdg-3, .sdg-4 > p.sdg-4, .sdg-5 > p.sdg-5, .sdg-6 > p.sdg-6, .sdg-7 > p.sdg-7, .sdg-8 > p.sdg-8, .sdg-9 > p.sdg-9, .sdg-10 > p.sdg-10, .sdg-11 > p.sdg-11, .sdg-12 > p.sdg-12, .sdg-13 > p.sdg-13, .sdg-14 > p.sdg-14, .sdg-15 > p.sdg-15, .sdg-16 > p.sdg-16, .sdg-17 > p.sdg-17 {
+    display: block;
 }

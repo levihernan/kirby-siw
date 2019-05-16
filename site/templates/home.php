@@ -77,12 +77,16 @@
     </div>
 
     <div class="row">
+      <?php $counter = 0 ?>
       <?php foreach ($page->find('sdgs')->files() as $sdg): ?>
-
+        <?php $counter ++ ?>
         <div class="col-md-2 my-2">
           <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
         </div>
-
+        <!-- &lt;p class="sdg-<?= $counter ?>"&gt;
+          <?= $sdg->text() ?>
+        &lt;/p&gt;<br> -->
+        <!-- .sdg-<?= $counter ?> > p.sdg-<?= $counter ?>,  -->
       <?php endforeach ?>
 
     </div>
@@ -330,8 +334,8 @@
             <div class="row">
               <?php foreach ($page->find('quotes')->files() as $quote): ?>
 
-                <div class="col">
-                  <div class="testimony-wrap p-4 pb-5">
+                <div class="col d-flex">
+                  <div class="testimony-wrap p-4 pb-5 my-auto">
                     <div class="text">
                       <div class="line pl-5">
                         <p class="mb-4 pb-1"><?= $quote->text()->text() ?></p>

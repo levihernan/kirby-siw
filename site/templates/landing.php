@@ -7,7 +7,7 @@
 
   <section class="ftco-section ftco-intro back-left" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/2-01.png');">
     <div class="container">
-      <div class="row justify-content-end">
+      <div class="row justify-content-end pt-5">
         <div class="col-md-6">
           <div class="heading-section ftco-animate">
             <h2 class="mb-4"><?= $page->title()->text() ?></h2>
@@ -30,7 +30,7 @@
         <div class="col ftco-animate bullet-div">
           <?= $page->bullets()->kirbytext() ?>
         </div>
-        
+
 
 
 
