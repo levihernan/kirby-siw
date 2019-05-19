@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start">
         <div class="col-md-8 ftco-animate">
-          <img class="logo-siw" src="<?= $site->url() ?>/assets/images/Logo SIW.png" alt="" height="400px">
+          <img class="logo-siw" src="<?= $site->url() ?>/assets/images/Logo SIW.png" alt="">
           <!-- <p><a href="#" class="btn btn-primary p-3 px-4">15 Day Free Trial</a></p> -->
         </div>
       </div>
@@ -17,7 +17,7 @@
 
 
   <section class="ftco-section bg-light">
-    <svg class="bg-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
+    <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
 
     <!-- <div class="container">
     <a href="#" class="btn btn-primary d-block px-2 py-4 mb-4">Learn more</a>
@@ -80,7 +80,7 @@
       <?php $counter = 0 ?>
       <?php foreach ($page->find('sdgs')->files() as $sdg): ?>
         <?php $counter ++ ?>
-        <div class="col-md-2 my-2">
+        <div class="col-md-2 my-2 p-1">
           <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
         </div>
         <!-- &lt;p class="sdg-<?= $counter ?>"&gt;
@@ -102,6 +102,8 @@
 <div id="map" class="map"></div>
 
 <section class="ftco-section bg-light hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/bubbles/Asset 52.png');">
+
+<svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.75 26.49"><defs><style>.cls-1{fill:#941b80;opacity:0.5;}</style></defs><title>Asset 212</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M33,6c6,.91,11.73,11.31,9,16.12C37.2,30.77,2.66,25.61.15,15-1.44,8.27,9.77-1.49,13.69.19,17,1.61,16.66,6.34,20.44,8,24.39,9.74,26.93,5.07,33,6Z"/></g></g></svg>
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
@@ -113,7 +115,7 @@
         <?= $page->proyectos()->kirbytext() ?>
       </div>
 
-      <?php foreach ($site->find('proyectos')->children()->shuffle()->limit(6) as $proyecto) :?>
+      <?php foreach ($site->find('projects')->children()->shuffle()->limit(6) as $proyecto) :?>
         <div class="col-md-4 d-flex ftco-animate">
           <div class="blog-entry justify-content-end">
             <div class="text p-4 mt-1 float-right d-block">
@@ -243,6 +245,7 @@
 
 
       <section class="ftco-section">
+        <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.76 34"><defs><style>.cls-1{fill:#ed254e;opacity:0.5;}</style></defs><title>Asset 112</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M13.76,0A13.73,13.73,0,0,1,24.92,5.72h0c6.66,9.22,8.19,9.37,15.44,10.61h0A8.9,8.9,0,1,1,33.27,32h0c-5.71-4.61-6.84-5.67-18.09-4.58H15.1c-.44,0-.89.07-1.34.07A13.76,13.76,0,0,1,13.76,0Z"/></g></g></svg>
         <div class="container">
           <div class="row justify-content-center mb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
@@ -291,32 +294,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="col-md-1"></div>
-              <div class="col-md-6 ftco-animate">
-                <form action="#" class="contact-form">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Email">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Subject">
-                  </div>
-                  <div class="form-group">
-                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                  </div>
-                </form>
-              </div> -->
             </div>
           </div>
         </section>
@@ -324,6 +301,7 @@
 
         <section class="ftco-section testimony-section">
           <div class="container">
+            <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53.93 32.61"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="92.59" y1="600.95" x2="56.8" y2="627.52" gradientTransform="matrix(0.99, 0.14, 0.14, -0.99, -133.04, 613.24)" gradientUnits="userSpaceOnUse"><stop offset="0.02" stop-color="#ffbf00"/><stop offset="0.18" stop-color="#ffbb02"/><stop offset="0.34" stop-color="#fdaf08"/><stop offset="0.49" stop-color="#fb9b12"/><stop offset="0.65" stop-color="#f88020"/><stop offset="0.81" stop-color="#f35c32"/><stop offset="0.96" stop-color="#ee3048"/><stop offset="1" stop-color="#ed254e"/></linearGradient></defs><title>Asset 1612</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.64,31.47c-6.68-3.08-8.91-18-4-21.78,4.55-3.48,11,5.59,22.63,4.25C39.12,12.35,44.1-2,49.5.23c5.15,2.11,6.88,17.66-.72,26.16-2.87,3.21-8.48,7-14,6.08-3.55-.59-3.64-2.57-7.64-3.11-4.26-.59-5.62,1.46-12.45,2.26C10.59,32.1,8.53,32.34,6.64,31.47Z"/></g></g></svg>
             <div class="row justify-content-center mb-5 pb-3">
               <div class="col-md-7 heading-section ftco-animate text-center">
                 <h3 class="subheading">Testimony</h3>

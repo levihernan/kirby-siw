@@ -24,6 +24,7 @@ img.siw-loguitos {
 
 .logo-siw{
   /* filter: invert(100); */
+  width: 50%;
 }
 .navbar .logo-siw{
   display: none;
@@ -31,6 +32,7 @@ img.siw-loguitos {
 .scrolled .logo-siw{
   display: block !important;
   filter: invert(100);
+  width: auto;
 }
 
 .back-right{
@@ -67,18 +69,40 @@ img.siw-loguitos {
   height: 400px;
 }
 
-.sdgs-container p{
+.sdgs-container span{
   display: none;
 }
 
-.sdg-1 > p.sdg-1, .sdg-2 > p.sdg-2, .sdg-3 > p.sdg-3, .sdg-4 > p.sdg-4, .sdg-5 > p.sdg-5, .sdg-6 > p.sdg-6, .sdg-7 > p.sdg-7, .sdg-8 > p.sdg-8, .sdg-9 > p.sdg-9, .sdg-10 > p.sdg-10, .sdg-11 > p.sdg-11, .sdg-12 > p.sdg-12, .sdg-13 > p.sdg-13, .sdg-14 > p.sdg-14, .sdg-15 > p.sdg-15, .sdg-16 > p.sdg-16, .sdg-17 > p.sdg-17 {
-    display: block;
+.sdg-1 > span.sdg-1, .sdg-2 > span.sdg-2, .sdg-3 > span.sdg-3, .sdg-4 > span.sdg-4, .sdg-5 > span.sdg-5, .sdg-6 > span.sdg-6, .sdg-7 > span.sdg-7, .sdg-8 > span.sdg-8, .sdg-9 > span.sdg-9, .sdg-10 > span.sdg-10, .sdg-11 > span.sdg-11, .sdg-12 > span.sdg-12, .sdg-13 > span.sdg-13, .sdg-14 > span.sdg-14, .sdg-15 > span.sdg-15, .sdg-16 > span.sdg-16, .sdg-17 > span.sdg-17 {
+    display: inline;
 }
+
+
+
+figure img{
+  max-width: 100%;
+}
+.back-project{
+  background-position: 0% 170px;
+}
+.location{
+  display: inline !important;
+}
+.locations{
+  text-align: center;
+}
+
 
 .bg-svg{
   position: absolute;
-    opacity: .3;
-    margin: -4em 4em;
-    margin-left: 30%;
-    filter: drop-shadow(0 0 5px #0003);
+  opacity: .3;
+  filter: drop-shadow(0 0 5px #0003);
+}
+.bg-center{
+  width: 80%;
+  left: 10%
+}
+.bg-left{
+  width: 80%;
+ right: 18%;
 }
