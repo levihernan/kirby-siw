@@ -2,12 +2,12 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row text-center">
-      <div class="col-2 offset-5 heading-section text-center">
-        <h3 class="subheading">Powered by</h3>
-        <img class="footer-logo" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
-        <h3 class="subheading">Inspired by</h3>
+      <div class="col-4 offset-4 heading-section text-center">
+        <h3 class="subheading text-black-50 text-center">Powered by</h3>
+        <img class="footer-logo px-5" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
+        <h3 class="subheading text-black-50 text-center">Inspired by</h3>
         <img class="footer-logo" src="<?= $site->url() ?>/assets/images/SDG logo.png" alt="">
-        <h3 class="subheading mb-3">In collaboration with</h3>
+        <h3 class="subheading mb-3 text-black-50 text-center">In collaboration with</h3>
     </div>
     </div>
 <div class="row h-100">

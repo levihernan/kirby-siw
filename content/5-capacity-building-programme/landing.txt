@@ -1,0 +1,74 @@
+Title: Capacity Building Programme
+
+----
+
+Text: The Capacity Building Program is a 5-week, online, learn-by-doing training for young innovators to explore the multiple dimensions to be considered when delivering social innovation projects with a strong focus on impact.
+
+----
+
+Text2: 
+
+Young innovators already have knowledge and skills they can share to inspire fellow leaders. Rather that imposing content, the learning experience has been designed to stimulate participants to engage with the topics they consider relevant for their own context and encourage them to guide their peers on topics they already have experience in. Depending on their Learning Journey, young innovators may go through all or just some of the topics.
+
+We aim for young innovators to: 
+- Develop a better understanding of the different elements of impact assessment
+- Understand the options, risks and opportunities of scaling up
+- Understand the multiple factors involved in a economically sustainable project, even if the project is not considered a social enterprise. 
+- Develop skills and connections that can help them accomplish their goals.
+
+----
+
+Bullets: 
+
+<div>
+  <p><strong>Project Management</strong></p>
+  <ul>
+    <li>Understanding your project</li>
+    <li>Business model</li>
+    <li>Impact Management</li>
+    <li>Useful PM resources</li>
+  </ul></div><div>
+    <p><strong>Context</strong></p>
+    <ul>
+      <li>Market Analysis: Understanding your context</li>
+      <li>Sociotechnical systems of innovation.</li>
+      <li>Partnerships</li>
+      <li>SDGs</li>
+    </ul></div><div>
+      <p><strong>Team</strong></p>
+      <ul>
+        <li>Understanding your people</li>
+        <li>Identity and culture</li>
+        <li>Understanding your project: Operations<br>
+          <div></div></li>
+        </ul></div><div>
+          <p><strong>Impact Assessment</strong></p>
+          <ul>
+            <li>Problem and solution</li>
+            <li>Impact Assessment Intro</li>
+            <li>Making impact visible</li>
+            <li>UX Design Applied to impact Assessment</li>
+            <li>Social value</li>
+            <li>Communicating impact</li>
+          </ul></div><div>
+            <p><strong>Funding</strong></p>
+            <ul>
+              <li>Sources of revenue</li>
+              <li>Applying to grants</li>
+              <li>Selling Products &amp; Services</li>
+              <li>Finding Donors</li>
+              <li>Crowdfunding</li>
+              <li>Seeking investment</li>
+              <li>Social Investment</li>
+              <li>Debt</li>
+            </ul></div><div>
+              <p><strong>Scale and growth</strong></p>
+              <ul>
+                <li>What does it mean to be scalable?</li>
+                <li>Scale and impact tradeoff</li>
+                <li>Scale business model</li>
+                <li>Business Plan</li>
+                <li>Context and opportunities to scale</li>
+                <li>Assess your readiness to grow</li>
+                <li>Replication readiness</li>
+              </ul></div>

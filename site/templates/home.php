@@ -36,7 +36,7 @@
           <div class="text-center">
             <h2 class="heading">Young Innovators</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
-            <a href="#" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
+            <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
           <div class="text-center">
             <h2 class="heading">Everyone</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
-            <a href="#" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
+            <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
           <div class="text-center">
             <h2 class="heading">Organizations</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
-            <a href="#" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
+            <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
     </div>
   </div>
   <div class="container">
-    <a href="#" class="btn btn-primary d-block px-2 py-4 my-3">Browse all Projects</a>
+    <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4 my-3">Browse all Projects</a>
   </div>
 
 </section>
@@ -210,11 +210,11 @@
             </div>
 
             <div class="col-md-6 mb-4">
-              <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
+              <a href="<?= $site->url() ?>/eidos" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
             </div>
 
             <div class="col-md-6 mb-4">
-              <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more about Y20</a>
+              <a href="<?= $site->url() ?>/y20" class="btn btn-primary d-block px-2 py-4">Learn more about Y20</a>
             </div>
 
           </div>
@@ -236,7 +236,7 @@
               <p class="">
                 <?= $page->capacity()->kirbytext() ?>
               </p>
-              <a href="#" class="btn btn-primary d-block px-2 py-4">Learn more</a>
+              <a href="<?= $site->url() ?>/capacity-building-programme" class="btn btn-primary d-block px-2 py-4">Learn more</a>
 
             </div>
           </div>
