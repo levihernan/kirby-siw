@@ -1,6 +1,6 @@
 title: Landing
 pages: false
-files: false
+files: true
 fields:
   title:
     label: Title
@@ -8,3 +8,7 @@ fields:
   text:
     label: Intro
     type:  textarea
+  photo:
+    label: Foto
+    type:  image
+    required: true
