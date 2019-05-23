@@ -101,9 +101,15 @@
 
 </section>
 
-<iframe class="gMap" src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
 
-<div id="map" class="map"></div>
+<div class="map">
+  <div class="container">
+    <img src="<?= $page->map()->toFile()->url()?>" alt="">
+  </div>
+</div>
+<!-- <iframe class="gMap" src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
+
+<div id="map" class="map"></div> -->
 
 <section class="ftco-section bg-light hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/bubbles/Asset 52.png');">
 

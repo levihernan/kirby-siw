@@ -21,6 +21,9 @@ fields:
     label: Texto Capacity Building
     type:  textarea
 
+  map:
+    label: Map
+    type:  image
 
   header:
     label: SIW
