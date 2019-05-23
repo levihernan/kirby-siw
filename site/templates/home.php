@@ -80,12 +80,14 @@
       <?php $counter = 0 ?>
       <?php foreach ($page->find('sdgs')->files() as $sdg): ?>
         <?php $counter ++ ?>
-        <div class="col-md-2 my-2 p-1">
+        <!-- <div class="col-md-2 my-2 p-1">
           <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
-        </div>
-        <!-- &lt;p class="sdg-<?= $counter ?>"&gt;
-          <?= $sdg->text() ?>
-        &lt;/p&gt;<br> -->
+        </div> -->
+        &lt;span class="sdg-<?= $counter ?>"&gt;
+        &lt;i class="fa fa-check"&gt;&lt;/i&gt;
+
+          <?= $sdg->title() ?>
+        &lt;/span&gt;<br>
         <!-- .sdg-<?= $counter ?> > p.sdg-<?= $counter ?>,  -->
       <?php endforeach ?>
 
