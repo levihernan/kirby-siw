@@ -79,7 +79,9 @@
             </div>
           </div>
           <div class="row my-3">
-          <?= $page->text2()->kirbytext() ?>
+            <div class="col-12">
+              <?= $page->text2()->kirbytext() ?>
+            </div>
         </div>
 
 
