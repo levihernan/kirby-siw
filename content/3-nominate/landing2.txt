@@ -2,11 +2,29 @@ Title: Nominate a Proyect
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: 
+
+Young people's great ideas deserve to be known and shared!
+
+Have you been working on social innovation? Do you think your initiative can be useful for someone else? Tell us about your project!
 
 ----
 
-Text2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text2: 
+
+**Requirements**
+
+1) The project must be related to at least one **(link: https://sdsnyouth.org/about#the-sdgs text: SDG)**.
+
+2) The project must have started already. This means:
+- Be in test, implementation or growth phase.
+- The project has been in operation for more than 5 months.
+- The young innovator has a team (+1 people) working with him or her on the project.
+- They have been actively seeking for funding (doesn't matter if they got it yet). 
+
+3) The founder or co-founder of the project is aged between 15 and 30 years old. 
+OR
+More than 51% of the team members are aged 18 to 30 years old.
 
 ----
 
@@ -53,16 +71,16 @@ titulo
 
 ----
 
-Icon1: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon1: Access to the 5 week Capacity Building Programme
 
 ----
 
-Icon2: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon2: Contact with companies, governments and potential funders
 
 ----
 
-Icon3: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon3: Peer support and mentorship
 
 ----
 
-Icon4: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon4: Access to events and speaking opportunities

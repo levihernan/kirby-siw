@@ -1,8 +1,8 @@
-Title: About EIDOS
+Title: About Eidos
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text: Eidos is the Youth20 2018 Chair Organization and the main creator of the SIW. Eidos is a global organization focused in the design of meaningful, amazing, wow-like, disruptive learning experiences. Our goal? That 7 billion people around the world are ready to face the challenges of the Future of Work. Get to know more about what we do in (link: https://www.aeidos.com.ar/en/ text: our website.)
 
 ----
 
