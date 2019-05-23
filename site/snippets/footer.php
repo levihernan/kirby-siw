@@ -11,7 +11,7 @@
     </div>
     </div>
 <div class="row h-100">
-    <?php foreach ($site->find('logos')->files() as $logo): ?>
+    <?php foreach ($site->find('logos')->files()->sortBy('Sort') as $logo): ?>
            <div class="col my-auto">
              <img class="footer-logo" src="<?= $site->url.'/'.$logo->uri() ?>" alt="">
            </div>
