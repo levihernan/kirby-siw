@@ -31,7 +31,7 @@ img.siw-loguitos {
 }
 .scrolled .logo-siw{
   display: block !important;
-  filter: invert(100);
+  /* filter: invert(100); */
   width: auto;
 }
 
@@ -110,4 +110,12 @@ figure img{
 .bg-left{
   width: 80%;
  right: 18%;
+}
+
+.gMap{
+  width: 100%;
+  margin-bottom: -10px;
+}
+.gMap html{
+  margin-top: -60px
 }

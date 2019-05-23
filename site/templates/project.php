@@ -129,23 +129,13 @@
       </div>
       <!-- full buttons -->
 
-      <div class="testimony-wrap p-4 pb-5">
 
-        <div class="text">
-          <div class="line pl-5">
-            <p class="mb-4 pb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-            <span class="quote d-flex align-items-center justify-content-center">
-              <i class="icon-quote-left"></i>
-            </span>
-          </div>
-        </div>
-      </div>
 
-  </section>
+  <!-- </section>
 
 
 
-  <section class="ftco-section ftco-section-services bg-light">
+  <section class="ftco-section ftco-section-services bg-light"> -->
     <div class="container">
 
 
@@ -156,7 +146,17 @@
           <?= $page->bullets()->kirbytext() ?>
         </div>
 
+        <div class="testimony-wrap p-4 pb-5">
 
+          <div class="text">
+            <div class="line pl-5">
+              <p class="mb-4 pb-1"><?= $page->quote()->text() ?></p>
+              <span class="quote d-flex align-items-center justify-content-center">
+                <i class="icon-quote-left"></i>
+              </span>
+            </div>
+          </div>
+        </div>
 
 
       </div>

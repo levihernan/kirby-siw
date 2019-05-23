@@ -4,7 +4,7 @@
       Social Innovation Warehouse
     </a> -->
     <a href="<?= $site->url() ?>/">
-    <img class="logo-siw" src="<?= $site->url() ?>/assets/images/logo-small.png" alt="" height="54px">
+    <img class="logo-siw" src="<?= $site->url() ?>/assets/images/loguito.png" alt="" height="54px">
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="oi oi-menu"></span>

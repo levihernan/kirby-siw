@@ -41,7 +41,7 @@
   <script src="<?= $site->url() ?>/assets/js/bootstrap-datepicker.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.timepicker.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=1hbvfo6itCbzmDsBhOud03Revqhki3reC&callback=initMap"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXG_QwuVYnOIVA64UeecFZS5gJA1PSfP8&callback=initMap"></script> -->
   <script src="<?= $site->url() ?>/assets/js/google-map.js"></script>
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
   <script src="<?= $site->url() ?>/assets/js/bootstrap-tooltip.js"></script>

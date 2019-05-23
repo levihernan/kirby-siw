@@ -57,7 +57,7 @@
         <div class="block-7">
           <div class="text-center">
             <h2 class="heading">Organizations</h2>
-            <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
+            <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BECOME A PARTNER.png" alt="">
             <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
           </div>
         </div>
@@ -99,7 +99,7 @@
 
 </section>
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
+<iframe class="gMap" src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
 
 <div id="map" class="map"></div>
 
