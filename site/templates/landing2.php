@@ -13,7 +13,7 @@
             <h2 class="mb-4"><?= $page->title()->text() ?></h2>
           </div>
           <p class="ftco-animate">
-            <?= $page->text()->text() ?>
+            <?= $page->text()->kirbytext() ?>
           </p>
 
         </div>
