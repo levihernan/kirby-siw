@@ -1,6 +1,7 @@
 title: Page
 pages: true
 files: true
+  sortable: true
 fields:
   title:
     label: Title
