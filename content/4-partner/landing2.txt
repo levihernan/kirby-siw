@@ -66,3 +66,7 @@ Icon3: A small river named Duden flows by their place and supplies it with the n
 ----
 
 Icon4: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+
+----
+
+Photo: 9-07.png

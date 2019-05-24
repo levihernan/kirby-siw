@@ -72,3 +72,7 @@ Bullets:
                 <li>Assess your readiness to grow</li>
                 <li>Replication readiness</li>
               </ul></div>
+
+----
+
+Photo: 9-12.png

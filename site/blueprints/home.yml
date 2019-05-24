@@ -1,5 +1,7 @@
 title: Home
-pages: true
+pages:
+  template:
+    none
 files: true
 fields:
   title:

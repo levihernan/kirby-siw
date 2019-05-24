@@ -1,6 +1,6 @@
 title: Landing
 pages: false
-files: false
+files: true
 fields:
   title:
     label: Title
@@ -25,3 +25,8 @@ fields:
   icon4:
     label: Icon4
     type:  text
+
+  photo:
+    label: Foto
+    type:  image
+    required: true
