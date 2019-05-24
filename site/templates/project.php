@@ -67,15 +67,19 @@
     </div>
     <div class="container">
 
-      <div class="row mb-4">
+      <div class="row mb-4 justify-content-center">
 
+        <?php if ( $page->files()->find('one-pager.pdf') ) : ?>
         <div class="col-md-6 mb-4">
           <a target="_blank" href="<?= $page->files()->find('one-pager.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Download one-pager</a>
         </div>
+      <?php endif ?>
+      <?php if ( $page->files()->find('theory-of-change.pdf') ) : ?>
 
         <div class="col-md-6 mb-4">
           <a target="_blank" href="<?= $page->files()->find('theory-of-change.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Click here</a>
         </div>
+      <?php endif ?>
       </div>
       <!-- full buttons -->
 
