@@ -77,7 +77,7 @@
       <?php if ( $page->files()->find('theory-of-change.pdf') ) : ?>
 
         <div class="col-md-6 mb-4">
-          <a target="_blank" href="<?= $page->files()->find('theory-of-change.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Click here</a>
+          <a target="_blank" href="<?= $page->files()->find('theory-of-change.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Download Theory of Change</a>
         </div>
       <?php endif ?>
       </div>
