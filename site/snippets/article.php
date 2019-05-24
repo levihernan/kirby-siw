@@ -2,7 +2,7 @@
 $tags = $article->tags()->split();
 ?>
 
-<div id="myDiv" aria-labelledby="lalala" class="myProject col-md-6 d-flex ftco-animate <?= str_replace(' ','-',$article->location()->lower()->text()) ?> <?php foreach($tags as $tag): ?>
+<div id="myDiv" class="myProject col-md-6 d-flex ftco-animate <?= str_replace(' ','-',$article->location()->lower()->text()) ?> <?php foreach($tags as $tag): ?>
   <?= $tag ?>
 <?php endforeach ?>">
   <div class="blog-entry justify-content-end">
