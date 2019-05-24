@@ -28,3 +28,7 @@ Text2:
 ##Young innovator: Veronica Almedom
 A transition to digitalization is happening. The way Africans live is drastically changing. And the way they engage politically is inevitably going to metamorphose policy-making on the continent. So do African leaders want to adopt a visionary approach by anticipating the changes and adapt to this new era? We hope you will!
 (image: tapa-de-todas-las-cosas.png)
+
+----
+
+Intro: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
