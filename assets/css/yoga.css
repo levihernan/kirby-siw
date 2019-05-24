@@ -119,3 +119,28 @@ figure img{
 .gMap html{
   margin-top: -60px
 }
+.hero-wrap .overlay {
+    opacity: 0;
+}
+.hero-wrap{
+  /* z-index: 1 */
+}
+.z-back{
+  z-index: -10
+}
+
+/* section{
+  z-index: -10
+} */
+
+/* The "show" class is added to the filtered elements */
+.myProject{
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+
+.locations span {
+    white-space: nowrap;
+}

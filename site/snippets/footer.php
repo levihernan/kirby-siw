@@ -27,6 +27,8 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
+<?= js('assets/js/jquery.min.js') ?>
+
   <script src="<?= $site->url() ?>/assets/js/jquery.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery-migrate-3.0.1.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/popper.min.js"></script>
@@ -41,8 +43,8 @@
   <script src="<?= $site->url() ?>/assets/js/bootstrap-datepicker.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.timepicker.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0wkyWYeRR83eCb4i16--J_6fdTeP7oTA&callback=initMap"></script>
-  <script src="<?= $site->url() ?>/assets/js/google-map.js"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0wkyWYeRR83eCb4i16--J_6fdTeP7oTA&callback=initMap"></script> -->
+  <!-- <script src="<?= $site->url() ?>/assets/js/google-map.js"></script> -->
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
   <script src="<?= $site->url() ?>/assets/js/bootstrap-tooltip.js"></script>
   <script type="text/javascript">
@@ -52,6 +54,67 @@
       $('[data-toggle="tooltip"]').tooltip()
     })
   });
+  </script>
+
+  <script>
+  // $(document).ready(function(){
+  //   $("#myInput").on("keyup", function() {
+  //     var value = $(this).val().toLowerCase();
+  //     $("#myTable tr").filter(function() {
+  //       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+  //     });
+  //   });
+  // });
+  // var store
+  //
+  // $("#myInput").on("keyup", function() {
+  //       var value = $(this).val().toLowerCase();
+  //       store = value;
+  //       $("#myProjects div").filter(function() {
+  //         $(this).toggle($(this).attr('class').indexOf(value) > -1)
+  //         console.log(value)
+  //         console.log($(this).attr('class').indexOf(value))
+  //       });
+  //
+  //     });
+
+      filterSelection("all") // Execute the function and show all columns
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("myProject");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
   </script>
 
 </body>

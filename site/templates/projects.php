@@ -14,7 +14,6 @@
           </div>
           <p class="ftco-animate">
             <?= $page->text()->text() ?>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
 
         </div>
@@ -26,45 +25,72 @@
 
 
 <div class="container">
-  <div class="row justify-content-center mb-5 pb-3">
+  <div class="row justify-content-center mb-5 pb-3 ">
     <div class="col-md-12 heading-section ftco-animate text-center">
       <h3 class="subheading">UNDP</h3>
       <h2 class="mb-1">Browse all Projects</h2>
     </div>
+
+    <div class="col-4">
+
+
     <div class="locations">
-    <?php $tags = $page->children()->pluck('location', ',', true); sort($tags) ?>
-    <?php foreach($tags as $tag): ?>
-      <span class="mx-2">
-      <i class="fa fa-globe"></i>
-      <?= $tag ?>
-    </span>
-    <?php endforeach ?>
+      <span class="mx-2" onclick="filterSelection('all')">
+        <i class="fa fa-globe"></i>
+        All
+      </span>
+        <?php $tags = $page->children()->pluck('location', ',', true); sort($tags) ?>
+        <?php foreach($tags as $tag): ?>
+          <span class="mx-2" onclick="filterSelection('<?= strtolower(str_replace(' ','-',$tag)) ?>')">
+            <i class="fa fa-globe"></i>
+            <?= $tag ?>
+          </span>
+        <?php endforeach ?>
 
       </div>
-    <div class="row container">
+      <div class="locations sdgs">
+        <div class="row">
 
-    <?php $sdgs = $site->find('home')->find('sdgs') ?>
-    <?php $counter = 0 ?>
-    <?php foreach ($sdgs->files() as $sdg): ?>
-    <?php $counter ++ ?>
-    <!-- <span class="sdg-text mb-2">
-      <i class="fa fa-check"></i><?= $counter ?> - <?= $sdg->text() ?>
-    </span> -->
-    <!-- <div class="col-md-2 my-2">
-      <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
-    </div> -->
-    <?php endforeach ?>
+        <?php $sdgs = $site->find('home')->find('sdgs') ?>
+        <?php $counter = 0 ?>
+        <?php foreach ($sdgs->files() as $sdg): ?>
+        <?php $counter ++ ?>
+
+        <!-- <span class="sdg-text mx-2" onclick="filterSelection('lala')">
+          <i class="fa fa-check"></i><?= $sdg->title() ?>
+        </span> -->
+        <div class="col-md-4 my-2">
+          <img onclick="filterSelection('<?php if ($counter < 18) {
+            echo 'sdg-'.$counter;
+          }
+          else {
+            echo 'all';
+          }
+          ?>')" class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
+        </div>
+        <?php endforeach ?>
+      </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="col-8">
+      <div class="row">
+          <?php foreach ($articles as $article): ?>
+            <?php snippet('article', ['article' => $article]) ?>
+          <?php endforeach ?>
+      </div>
+    </div>
+
+
+
   </div>
 
-
-  </div>
-  <div class="row">
-
-<?php foreach ($articles as $article): ?>
-  <?php snippet('article', ['article' => $article]) ?>
-<?php endforeach ?>
-</div>
 
 </div>
 </section>
+
+
 <?php snippet('footer') ?>

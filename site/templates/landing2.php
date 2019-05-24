@@ -90,6 +90,9 @@
       </div>
     </div>
   </section>
+  <section class="ftco-section contact-section">
+    <?php snippet('contact-tile') ?>
+    </section>
 
 
 

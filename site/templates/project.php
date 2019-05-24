@@ -28,14 +28,14 @@
                 <?php endforeach ?>
               </p> -->
 
-              <div class="sdgs-container text-justify
+              <div class="sdgs-container locations
               <?php foreach($tags as $tag): ?>
                 <?= $tag ?>
               <?php endforeach ?>
               ">
               <span class="location">
                 <i class="fa fa-globe"></i> <?= $page->location()->text() ?>
-              </span>
+              </span><br>
 
               <span class="sdg-1"> <i class="fa fa-check"></i> SDG 1: NO POVERTY </span>
 <span class="sdg-2"> <i class="fa fa-check"></i> SDG 2: ZERO HUNGER </span>

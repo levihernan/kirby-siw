@@ -3,7 +3,7 @@
 
   <?= snippet('navbar') ?>
 
-  <section class="hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/VV-20.png');">
+  <section class="hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/9-15.png');">
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start">
@@ -13,12 +13,15 @@
         </div>
       </div>
     </div>
+    <img class="bg-svg bg-center" style="top: 100px; z-index:-1; padding:0 100px" src="<?= $site->url() ?>/assets/images/graphics/bubbles/Asset 1222.svg" >
   </section>
 
 
-  <section class="ftco-section bg-light">
-    <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
 
+
+  <section class="ftco-section bg-light z-back">
+
+    <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
     <!-- <div class="container">
     <a href="#" class="btn btn-primary d-block px-2 py-4 mb-4">Learn more</a>
   </div> -->
@@ -102,14 +105,14 @@
 </section>
 
 
-<div class="map">
+<!-- <div class="map">
   <div class="container">
-    <img src="<?= $page->map()->toFile()->url()?>" alt="">
+    <img class="w-100" src="<?= $page->map()->toFile()->url()?>" alt="">
   </div>
-</div>
-<!-- <iframe class="gMap" src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
+</div> -->
+<iframe class="gMap" src="https://www.google.com/maps/d/embed?mid=1hbvfo6itCbzmDsBhOud03Revqhki3reC" width="640" height="480"></iframe>
 
-<div id="map" class="map"></div> -->
+<!-- <div id="map" class="map"></div> -->
 
 <section class="ftco-section bg-light hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/bubbles/Asset 52.png');">
 
@@ -164,6 +167,8 @@
 </section>
 
 <section  id="aboutSIW" class="ftco-section ftco-section-services bg-light">
+  <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
+
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-7 heading-section ftco-animate text-center">
@@ -220,7 +225,7 @@
             </div>
 
             <div class="col-md-6 mb-4">
-              <a href="<?= $site->url() ?>/eidos" class="btn btn-primary d-block px-2 py-4">Learn more about EIDOS</a>
+              <a href="<?= $site->url() ?>/eidos" class="btn btn-primary d-block px-2 py-4">Learn more about Eidos</a>
             </div>
 
             <div class="col-md-6 mb-4">
@@ -259,7 +264,7 @@
         <div class="container">
           <div class="row justify-content-center mb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
-              <h3 class="subheading">textito</h3>
+              <!-- <h3 class="subheading">textito</h3> -->
               <h2 class="mb-1">Meet Our Team</h2>
             </div>
           </div>
@@ -283,29 +288,7 @@
 
 
       <section class="ftco-section contact-section">
-        <div class="container">
-          <div class="row block-9">
-            <div class="col-md-6 offset-3 contact-info ftco-animate bg-light p-4">
-              <div class="row">
-                <div class="col-md-12 mb-4">
-                  <h2 class="h4">Contact Information</h2>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <p><span>Website:</span> <a href="#">yoursite.com</a></p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
+        <?php snippet('contact-tile') ?>
         </section>
 
 
