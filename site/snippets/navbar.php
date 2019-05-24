@@ -11,9 +11,9 @@
     </button>
     <div class="collapse navbar-collapse" id="ftco-nav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="<? $site->url() ?>/projects" class="nav-link">Browse Projects</a></li>
-        <li class="nav-item"><a href="<? $site->url() ?>/nominate" class="nav-link">Nominate a Project</a></li>
-        <li class="nav-item"><a href="<? $site->url() ?>/partner" class="nav-link">Become a Partner</a></li>
+        <li class="nav-item"><a href="<?= $site->url() ?>/projects" class="nav-link">Browse Projects</a></li>
+        <li class="nav-item"><a href="<?= $site->url() ?>/nominate" class="nav-link">Nominate a Project</a></li>
+        <li class="nav-item"><a href="<?= $site->url() ?>/partner" class="nav-link">Become a Partner</a></li>
       </ul>
     </div>
   </div>
