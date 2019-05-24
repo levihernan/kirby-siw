@@ -2,6 +2,8 @@ title: Page
 pages: false
 files: true
   sortable: true
+  size: 1048576
+
 fields:
   title:
     label: Title
@@ -9,3 +11,4 @@ fields:
   text:
     label: Text
     type:  textarea
+deletable: false

@@ -1,6 +1,8 @@
 title: Team
 pages: false
 files: true
+  sortable: true
+  size: 1048576
   sort: true
   fields:
     title:
@@ -9,3 +11,4 @@ files: true
     role:
       label: Role
       type:  text
+deletable: false

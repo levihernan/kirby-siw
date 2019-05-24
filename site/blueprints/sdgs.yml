@@ -9,3 +9,4 @@ files: true
     text:
       label: Text
       type:  textarea
+deletable: false

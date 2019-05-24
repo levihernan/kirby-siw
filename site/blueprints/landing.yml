@@ -1,6 +1,10 @@
 title: Landing
 pages: false
 files: true
+  sortable: true
+  size: 1048576
+deletable: false
+
 fields:
   title:
     label: Title

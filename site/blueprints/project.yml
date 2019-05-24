@@ -1,6 +1,11 @@
 title: Project
 pages: false
 files: true
+  sortable: true
+  size: 1048576
+
+deletable: true
+
 fields:
   title:
     label: Title
