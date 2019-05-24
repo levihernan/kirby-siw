@@ -1,6 +1,17 @@
 <? snippet('header') ?>
 <body>
 
+  <style media="screen">
+  .navbar .logo-siw {
+    display: none !important;
+  }
+  .scrolled .logo-siw{
+    display: block !important;
+    /* filter: invert(100); */
+    width: auto;
+  }
+  </style>
+
   <?= snippet('navbar') ?>
 
   <section class="hero-wrap back-right" style="background-image: url('<?= $site->url() ?>/assets/images/graphics/crops/9-15.png');">
