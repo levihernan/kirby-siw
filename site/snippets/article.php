@@ -12,7 +12,7 @@ $tags = $article->tags()->split();
       <h3 class="heading mt-2"><a href="<?= $article->url() ?>"><?= $article->title() ?></a>
       </h3>
       <p>
-        <?= $article->text()->text() ?>
+        <?= $article->intro()->text() ?>
       </p>
       <p>
         <i class="fa fa-globe"></i> <?= $article->location()->text() ?>
