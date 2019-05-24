@@ -9,6 +9,6 @@ fields:
     label: Text
     type:  textarea
 
-  countries:
-    label: Countries
-    type:  tags
+  # countries:
+  #   label: Countries
+  #   type:  tags
