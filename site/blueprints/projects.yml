@@ -12,3 +12,8 @@ fields:
   # countries:
   #   label: Countries
   #   type:  tags
+
+  photo:
+    label: Foto
+    type:  image
+    required: true
