@@ -1,16 +1,16 @@
-Title: Alf va a salvar koalas
+Title: Partnership Elevation Project (PEP)
 
 ----
 
-Text: Tini quiere salvar a todos los koalas del mundo pero le duele la panza.
+Text: The PEP is bringing in every citizen’s phone a new, modern and steady way to connect politically with your fellow citizens and to speak directly to their government! The government too will have a direct way to engage with you via the App on the solutions it gives to your problems. Political participation is a year-long process and partnership between citizen and government. And the PEP is going to bridge the gap !
 
 ----
 
-Tags: sdg-1,sdg-2,sdg-45
+Tags: sdg-1,sdg-3,sdg-6,sdg-16
 
 ----
 
-Location: Old Peru
+Location: Ghana
 
 ----
 
@@ -24,9 +24,7 @@ Photo: 1024.png
 
 Text2: 
 
-#Título
-##Subtitulo
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-##Subtitulo
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#Parnership Elevation Project
+##Young innovator: Veronica Almedom
+A transition to digitalization is happening. The way Africans live is drastically changing. And the way they engage politically is inevitably going to metamorphose policy-making on the continent. So do African leaders want to adopt a visionary approach by anticipating the changes and adapt to this new era? We hope you will!
 (image: tapa-de-todas-las-cosas.png)
