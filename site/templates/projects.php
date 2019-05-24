@@ -12,9 +12,9 @@
           <div class="heading-section ftco-animate">
             <h2 class="mb-4"><?= $page->title() ?></h2>
           </div>
-          <p class="ftco-animate">
-            <?= $page->text()->text() ?>
-          </p>
+          <div class="ftco-animate">
+            <?= $page->text()->kirbytext() ?>
+          </div>
 
         </div>
       </div>

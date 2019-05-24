@@ -11,9 +11,7 @@ $tags = $article->tags()->split();
       </div>
       <h3 class="heading mt-2"><a href="<?= $article->url() ?>"><?= $article->title() ?></a>
       </h3>
-      <p>
-        <?= $article->intro()->text() ?>
-      </p>
+        <?= $article->intro()->kirbytext() ?>
       <p>
         <i class="fa fa-globe"></i> <?= $article->location()->text() ?>
       </p>
