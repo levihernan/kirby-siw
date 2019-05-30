@@ -11,4 +11,7 @@ files: true
     role:
       label: Role
       type:  text
+    link:
+      label: Link
+      type:  text
 deletable: false
