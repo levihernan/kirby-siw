@@ -259,11 +259,11 @@
             </div>
 
             <div class="col-md-6 mb-4">
-              <a href="<?= $site->url() ?>/eidos" class="btn btn-primary d-block px-2 py-4">Learn more about Eidos</a>
+              <a href="<?= $site->url() ?>/about-eidos" class="btn btn-primary d-block px-2 py-4">Learn more about Eidos</a>
             </div>
 
             <div class="col-md-6 mb-4">
-              <a href="<?= $site->url() ?>/y20" class="btn btn-primary d-block px-2 py-4">Learn more about Y20</a>
+              <a href="<?= $site->url() ?>/about-y20" class="btn btn-primary d-block px-2 py-4">Learn more about Y20</a>
             </div>
 
           </div>

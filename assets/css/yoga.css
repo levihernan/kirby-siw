@@ -4,6 +4,10 @@ html{
   font-family: Montserrat
 }
 
+body{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
 
 .footer-logo{
   width: 100%
