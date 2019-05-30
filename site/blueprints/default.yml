@@ -1,5 +1,5 @@
 title: Page
-pages: false
+pages: true
 files: true
   sortable: true
   size: 1048576
