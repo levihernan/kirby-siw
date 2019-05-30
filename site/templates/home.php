@@ -310,7 +310,7 @@
                 <img class="sdg-image" src="<?= $site->url.'/'.$team->uri() ?>" alt="">
                 <div class="align-content-center d-flex flex-column h-100 justify-content-center text text-center">
                   <span class="subheading"><?= $team->role()->text() ?></span>
-                  <h3><a><?= $team->title()->text() ?></a></h3>
+                  <h3><a href="<?= $team->link() ?>"><?= $team->title()->text() ?></a></h3>
                 </div>
               </div>
 

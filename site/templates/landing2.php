@@ -1,7 +1,6 @@
 <? snippet('header') ?>
 
-
-<body>
+<body class="container-fluid mb-3">
 
   <?= snippet('navbar') ?>
 
