@@ -204,4 +204,10 @@ nav#ftco-navbar{
   padding: 0 10px;
 }
 
+.scrolled .logo-siw{
+  display: block !important;
+  /* filter: invert(100); */
+  width: auto;
+}
+
 }
