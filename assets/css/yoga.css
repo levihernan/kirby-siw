@@ -194,4 +194,8 @@ nav#ftco-navbar{
   /* overflow-x: hidden; */
 }
 
+.padding{
+  padding: 0 10px;
+}
+
 }

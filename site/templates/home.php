@@ -1,6 +1,8 @@
 <? snippet('header') ?>
 <body class="container-fluid mb-3">
 
+
+
   <style media="screen">
   .navbar .logo-siw {
     display: none !important;

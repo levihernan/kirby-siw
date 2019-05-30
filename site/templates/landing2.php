@@ -21,7 +21,7 @@
     </div>
   </section>
 
-  <section class="ftco-section ftco-section-services bg-light">
+  <section class="ftco-section padding ftco-section-services bg-light">
 
 
 
@@ -33,8 +33,8 @@
                 <!-- <span class="flaticon-like"></span> -->
                 <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - CBP.png" alt="">
               </div>
-              <div class="text mt-4">
-                <?= $page->icon1()->text() ?>
+              <div class="text mt-4 text-black-50">
+                <?= $page->icon1()->kirbytext() ?>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
               </div>
             </div>
@@ -46,8 +46,8 @@
                 <!-- <span class="flaticon-like"></span> -->
                 <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - COMPS GOVS.png" alt="">
               </div>
-              <div class="text mt-4">
-                <?= $page->icon2()->text() ?>
+              <div class="text mt-4 text-black-50">
+                <?= $page->icon2()->kirbytext() ?>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
               </div>
             </div>
@@ -59,8 +59,8 @@
                 <!-- <span class="flaticon-like"></span> -->
                 <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - PEER SUPPORT.png" alt="">
               </div>
-              <div class="text mt-4">
-                <?= $page->icon3()->text() ?>
+              <div class="text mt-4 text-black-50">
+                <?= $page->icon3()->kirbytext() ?>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
               </div>
             </div>
@@ -72,8 +72,8 @@
                 <!-- <span class="flaticon-like"></span> -->
                 <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - SPEAKING OPPS.png" alt="">
               </div>
-              <div class="text mt-4">
-                <?= $page->icon4()->text() ?>
+              <div class="text mt-4 text-black-50">
+                <?= $page->icon4()->kirbytext() ?>
                 <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p> -->
               </div>
             </div>
