@@ -20,16 +20,20 @@ fields:
 
   icon1:
     label: Icon1
-    type:  text
+    type:  textarea
+    size:  small
   icon2:
     label: Icon2
-    type:  text
+    type:  textarea
+    size:  small
   icon3:
     label: Icon3
-    type:  text
+    type:  textarea
+    size:  small
   icon4:
     label: Icon4
-    type:  text
+    type:  textarea
+    size:  small
 
   photo:
     label: Foto
