@@ -197,7 +197,9 @@ nav#ftco-navbar{
 *{
   /* overflow-x: hidden; */
 }
-
+.bullet-div{
+  column-count: 2;
+}
 .padding{
   padding: 0 10px;
 }

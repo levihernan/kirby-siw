@@ -31,7 +31,7 @@
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
                 <!-- <span class="flaticon-like"></span> -->
-                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - CBP.png" alt="">
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - SOCIAL.png" alt="">
               </div>
               <div class="text mt-4 text-black-50">
                 <?= $page->icon1()->kirbytext() ?>
@@ -44,7 +44,7 @@
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
                 <!-- <span class="flaticon-like"></span> -->
-                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - COMPS GOVS.png" alt="">
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - CBP.png" alt="">
               </div>
               <div class="text mt-4 text-black-50">
                 <?= $page->icon2()->kirbytext() ?>
@@ -57,7 +57,7 @@
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
                 <!-- <span class="flaticon-like"></span> -->
-                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - PEER SUPPORT.png" alt="">
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - COMPS GOVS.png" alt="">
               </div>
               <div class="text mt-4 text-black-50">
                 <?= $page->icon3()->kirbytext() ?>
@@ -70,7 +70,7 @@
             <div class="services ftco-animate text-center">
               <div class="icon d-flex justify-content-center align-items-center m-auto">
                 <!-- <span class="flaticon-like"></span> -->
-                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/SUBMIT - SPEAKING OPPS.png" alt="">
+                <img class="siw-loguitos" src="<?= $site->url()?>/assets/images/HOME - BECOME A PARTNER.png" alt="">
               </div>
               <div class="text mt-4 text-black-50">
                 <?= $page->icon4()->kirbytext() ?>

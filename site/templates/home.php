@@ -51,7 +51,7 @@
         <div class="block-7">
           <div class="text-center">
             <h2 class="heading">Young Innovators</h2>
-            <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT.png" alt="">
+            <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT A PROJECT.png" alt="">
             <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
           </div>
         </div>
