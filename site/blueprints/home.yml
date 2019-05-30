@@ -4,7 +4,8 @@ pages:
     none
 files: true
   sortable: true
-  size: 1048576deletable: false
+  size: 1048576
+  deletable: false
 
 fields:
   title:
