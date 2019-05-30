@@ -190,5 +190,8 @@ nav#ftco-navbar{
 .align-content-center.d-flex.flex-column.h-100.justify-content-center.text.text-center {
     justify-content: flex-start !important;
 }
+*{
+  /* overflow-x: hidden; */
+}
 
 }
