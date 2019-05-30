@@ -2,7 +2,7 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row text-center">
-      <div class="col-4 offset-4 heading-section text-center">
+      <div class="col-md-4 offset-md-4 col-10 offset-1 heading-section text-center">
         <h3 class="subheading text-black-50 text-center">Powered by</h3>
         <img class="footer-logo px-5" src="<?= $site->url() ?>/assets/images/logo eidos.png" alt="">
         <h3 class="subheading text-black-50 text-center">Inspired by</h3>
@@ -10,9 +10,9 @@
         <h3 class="subheading mb-3 text-black-50 text-center">In collaboration with</h3>
     </div>
     </div>
-<div class="row h-100">
+<div class="row h-100 justify-content-center">
     <?php foreach ($site->find('logos')->files()->sortBy('Sort') as $logo): ?>
-           <div class="col my-auto">
+           <div class="col-md col-3 my-auto">
              <img class="footer-logo" src="<?= $site->url.'/'.$logo->uri() ?>" alt="">
            </div>
     <?php endforeach ?>
