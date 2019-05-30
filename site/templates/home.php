@@ -94,7 +94,7 @@
       <?php $counter = 0 ?>
       <?php foreach ($page->find('sdgs')->files() as $sdg): ?>
         <?php $counter ++ ?>
-        <div class="col-md-2 my-2 p-1">
+        <div class="col-md-2 my-2 p-1 col-4">
           <img class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
         </div>
         <!-- &lt;span class="sdg-<?= $counter ?>"&gt;
@@ -135,9 +135,13 @@
       </div>
     </div>
     <div class="row d-flex">
-      <div class="col-md-8 offset-2 text text-center mb-4">
+      <div class="col-md-8 offset-md-2 text text-center mb-4 text-black-50">
         <?= $page->proyectos()->kirbytext() ?>
       </div>
+    </div>
+    <div class="row">
+
+
 
       <?php foreach ($site->find('projects')->children()->shuffle()->limit(6) as $proyecto) :?>
         <div class="col-md-4 d-flex ftco-animate">
@@ -178,7 +182,24 @@
 </section>
 
 <section  id="aboutSIW" class="ftco-section ftco-section-services bg-light">
-  <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56"><defs><style>.cls-1{fill:#ffbf00;}</style></defs><title>Asset 972</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.58,31.28c-6.67-3.11-8.83-18-3.85-21.8C7.29,6,13.67,15.12,25.33,13.84,39.14,12.31,44.19-2,49.58.24c5.14,2.13,6.8,17.69-.84,26.16-2.88,3.19-8.51,7-14,6-3.54-.61-3.63-2.58-7.62-3.15-4.26-.6-5.63,1.43-12.46,2.2C10.52,31.92,8.46,32.16,6.58,31.28Z"/></g></g></svg>
+  <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.96 32.56">
+    <defs>
+      <style>.cls-2{fill: url(#my-linear-gradient);}</style>
+    </defs>
+    <linearGradient id="my-linear-gradient" x1="638.17" y1="-298.09" x2="670.35" y2="-317.82" gradientTransform="matrix(-0.23, 0.97, 0.97, 0.23, 473.04, -542.31)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.02" stop-color="#8ee3ef"/>
+      <stop offset="1" stop-color="#3891a6"/>
+    </linearGradient>
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Ñëîé_1" data-name="Ñëîé 1">
+        <!-- <path class="cls-2" d="M27,5C38.44,11,50.7,23.49,47.81,29.51c-2.11,4.4-11.57,3.83-26.41,2.92C18.77,32.28.34,31.15,0,27.31-.23,24.51,4.07,23,6.18,16.73,8.45,10,5.08,4.45,7.28,1.28,9.35-1.71,19.36,1,27,5Z"/> -->
+        <path class="cls-2" d="M13.07,0C19.68,0,17,7.4,26,4.4c9.77-3.26,12.8-2.77,17.32-2.77a8.17,8.17,0,0,1,5.19,14.48h0c-5.62,4.62-6.3,7.46-3.41,14.14h0a8.17,8.17,0,1,1-15.24,5.82h0c-2.31-6.94-4.52-10.43-16.21-9.94v0l-.56,0A13.07,13.07,0,1,1,13.07,0Z"/>
+      </g>
+    </g>
+  </svg>
+
+
+
 
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
@@ -230,7 +251,7 @@
 
             <div class="row">
 
-              <div class="col-md-8 offset-2 text text-center mb-4">
+              <div class="col-md-8 offset-md-2 text text-center mb-4">
                 <?= $page->extratext()->kirbytext() ?>
               </div>
             </div>

@@ -148,3 +148,42 @@ figure img{
 .ftco-navbar-light {
     background: none !important;
 }
+
+svg:not(:root) {
+    overflow: initial !important;
+}
+
+@media (max-width: 576px) {
+.hero-wrap{
+  background-position-y: 20%;
+  background-size: 100%;
+}
+.bg-svg{
+  top: auto !important;
+    bottom: 0 !important;
+    z-index: -1;
+    padding: 20px !important;
+    display: none;
+}
+.logo-siw{
+    margin: auto;
+    padding: 0;
+    width: 50%;
+}
+.gMap{
+  height: 300px;
+}
+section.ftco-section.ftco-intro.back-left {
+    background-position-y: 10px;
+    padding-top: 400px;
+    background-size: 100%;
+}
+nav#ftco-navbar.scrolled{
+  display: inline-block;
+}
+nav#ftco-navbar{
+  display: none;
+}
+
+
+}

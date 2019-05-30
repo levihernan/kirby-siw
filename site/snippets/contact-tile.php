@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row block-9">
-    <div class="col-md-6 offset-3 contact-info ftco-animate bg-light p-4">
+    <div class="col-md-6 offset-md-3 contact-info ftco-animate bg-light p-4">
       <div class="row">
         <div class="col-md-12 mb-4">
           <h2 class="h4">Contact Information</h2>
