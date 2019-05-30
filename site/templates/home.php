@@ -301,13 +301,12 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row justify-content-center">
             <?php foreach ($page->find('team')->files() as $team): ?>
 
-              <div class="col my-2 coach ftco-animate">
+              <div class="col-6 col-md my-2 coach ftco-animate">
                 <img class="sdg-image" src="<?= $site->url.'/'.$team->uri() ?>" alt="">
                 <div class="align-content-center d-flex flex-column h-100 justify-content-center text text-center">
-
                   <span class="subheading"><?= $team->role()->text() ?></span>
                   <h3><a><?= $team->title()->text() ?></a></h3>
                 </div>
