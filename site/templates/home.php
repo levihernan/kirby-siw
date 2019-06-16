@@ -149,7 +149,7 @@
             <div class="text p-4 mt-1 float-right d-block">
               <div class="d-flex align-items-center pt-2 mb-4">
               </div>
-              <h3 class="heading mt-2"><a href="#"><?= $proyecto->title() ?></a>
+              <h3 class="heading mt-2"><a href="<?= $proyecto->url() ?>"><?= $proyecto->title() ?></a>
               </h3>
               <p>
                 <?= $proyecto->text()->text() ?>
@@ -329,7 +329,7 @@
             <div class="row justify-content-center mb-5 pb-3">
               <div class="col-md-7 heading-section ftco-animate text-center">
                 <h3 class="subheading">Testimony</h3>
-                <h2 class="mb-1">Successful Stories</h2>
+                <h2 class="mb-1">Word of mouth</h2>
               </div>
             </div>
 
