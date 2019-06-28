@@ -12,7 +12,7 @@
           <p><span>Email:</span> <a href="mailto:siw@eidosglobal.org">siw@eidosglobal.org</a></p>
         </div>
         <div class="col-md-12 mb-3">
-          <p><span>Website:</span> <a href="http://aeidos.com.ar">aeidos.com.ar</a></p>
+          <p><span>Website:</span> <a href="http://eidosglobal.org">eidosglobal.org</a></p>
         </div>
       </div>
     </div>
