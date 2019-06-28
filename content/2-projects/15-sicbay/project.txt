@@ -1,0 +1,29 @@
+Title: SicBay
+
+----
+
+Intro: 
+
+----
+
+Text: SicBay is a mobile health application for reproductive and sexual health that provides health tips and information to pregnant women. More so, It provides them with a real time and on-time access to quality healthcare and professional doctors with just a single click.
+
+----
+
+Location: Lagos, Nairobi, Coutonou
+
+----
+
+Quote: My name is Chioma Williams. I am 25 years of age. I met Sabon Africa Development Network at one of their workshop on Health in my community. They gave me an insight and importance of ante-natal care. Before now, I used our local traditional methods.
+
+----
+
+Photo: sicbay.png
+
+----
+
+Tags: sdg-1,sdg-3,sdg-4
+
+----
+
+Text2: 

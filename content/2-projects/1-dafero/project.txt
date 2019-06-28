@@ -1,0 +1,33 @@
+Title: Dafero
+
+----
+
+Intro: 
+
+----
+
+Text: At Dafero, we believe in using food for social good, crafting delicious yet sugarfree sweets that everyone can enjoy while supporting and employing the most vulnerable women in our communities. Our company specializes in vegan, paleo, glutenfree and low glycemic index desserts, allowing those with dietary restraints to enjoy the same delicious flavors as everyone else.
+
+----
+
+Location: Washington DC
+
+----
+
+Quote: Building the confidence through the training program to learn all the basis I needed to be part of the community and find a stable job to support myself has been very useful. Thanks to the application and training I now know what was needed to open a bank account, present myself at work and my rights as a woman.
+
+----
+
+Photo: logo.png
+
+----
+
+Tags: sdg-3,sdg-5,sdg-8
+
+----
+
+Text2: 
+
+We specialize in no-sugar added products, using just dates as a natural sweetener. All of our products are vegan, paleo, gluten free and low glycemic index, yet even our customers with no dietary restraints love the flavor profiles of Dafero. Our desserts are delicious, but our mission makes them even sweeter! We employ vulnerable women (such as refugees and former trafficking victims) and reinvest part of our profits to distribute the life skills programs we developed to NGOs and humanitarian organizations assisting vulnerable women worldwide.
+
+(image: date-spread.jpg)

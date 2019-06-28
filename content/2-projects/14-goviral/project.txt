@@ -1,0 +1,33 @@
+Title: GOViral
+
+----
+
+Intro: 
+
+----
+
+Text: GOViral is building a hepatitis free Philippines by developing healthcare solutions that break the cycle of hepatitis B transmission. Hepatitis B is a fully preventable and manageable disease, yet it still affects 257 million people worldwide. In the Philippines, this is due to lack of access to vaccination, testing, and treatment. Additionally, hepatitis B virus (HBV) carriers face economic discrimination and social stigmatization.
+
+----
+
+Location: Philippines
+
+----
+
+Quote: Jessa, a 20-year old expectant mother, said: “I don’t know about it [hepatitis B] but I want to keep my baby safe. I’m scared because I don’t understand.” At GOViral, building that understanding and keeping babies safe from HBV transmission is at the very core of what we do.
+
+----
+
+Photo: goviral-logo.png
+
+----
+
+Tags: sdg-3,sdg-9
+
+----
+
+Text2: 
+
+GOViral develops digital healthcare infrastructures that automate the full user journey and supply chain of vaccines, tests, and medicines. We also advocate for greater awareness and against the widespread workplace discrimination and social stigmatization of hepatitis carriers. Our value proposition to pharmaceutical and biotech companies is pain-free access to a market they are not currently reaching: the WHO estimates that 9 out of 10 HBV carriers are not aware of their status, as hepatitis can remain asymptomatic until severe complications develop. We connect companies to communities to establish a mutually beneficial cycle of care of repeat testing and treatment. To date, our awareness campaigns have reached over 10,000 Filipinos and our lobbying efforts with partner organizations have led to the adoption of a workplace anti-discrimination law in Davao. We’re actively looking for partners to accelerate our infrastructure development and deployment in the Philippines and beyond, as our platform technology can rapidly scale to other demographics and diseases where lack of access to healthcare is a key contributor.
+
+(image: infoexhibit-sm-city-davao.jpg)

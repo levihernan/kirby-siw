@@ -1,0 +1,29 @@
+Title: Hexar
+
+----
+
+Intro: 
+
+----
+
+Text: Hexar aims to rebuild the way S.T.E.M skills have been taught for young people to thrive in the 21st Century. We design amusing educational video games to empower a generation of critical, curious and proactive citizens, eager to improve the world through science.
+
+----
+
+Location: Argentina
+
+----
+
+Quote: For the first time I had fun solving a quadratic function, I would love to learn everything with these games.
+
+----
+
+Photo: 3-celeste.png
+
+----
+
+Tags: sdg-4,sdg-5,sdg-8,sdg-9,sdg-10,sdg-12
+
+----
+
+Text2: Created by a team of youngsters, Hexar focuses on changing educational experiences for their mates, being the first company to co-build with the national ministry of education a public experience of digital gamification accessible to all Argentinian schools.

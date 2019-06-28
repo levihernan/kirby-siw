@@ -1,0 +1,36 @@
+Title: Tune Map
+
+----
+
+Intro: 
+
+----
+
+Text: Tune Map is a mobile platform that will be able to navigate the visually-impaired in the city by crowdsourcing sights. We allow sighted volunteers to report the condition of city's pavements. It can be holes, or broken guiding blocks. The collected reports will be used to navigate the visually-impaired. In return, volunteers will gain certain points for each report and they can exchange it for a reward that is provided by the local businesses.
+
+----
+
+Location: Indonesia
+
+----
+
+Quote: 
+
+----
+
+Photo: logo_black.png
+
+----
+
+Tags: sdg-10,sdg-11,sdg-17
+
+----
+
+Text2: 
+
+Have you ever walked in total darkness? What about crossing roads when you can’t see a thing?
+Probably never. But that’s what life is like for 3.6 million people in Indonesia. 
+
+Unfortunately, there are so many barriers exist in cities where they live such as motorbikes parked on the sidewalks, potted plants, and holes in the sidewalk. This condition hinders people with visual impairment to independently go to school, training center, or workplaces. In other words, the unsafe environment hinders them to pursue more productive life. 
+
+In short, Tune Map is an engaging platform that promotes accessible and data-driven decision making.

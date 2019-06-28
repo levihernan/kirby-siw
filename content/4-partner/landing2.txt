@@ -2,6 +2,13 @@ Title: Become a Partner
 
 ----
 
+<<<<<<< HEAD
+Text: The SIW is the space where you can get in contact with fresh ideas that work, brought forward by young innovators.
+
+----
+
+Text2: The platform provides governments, International Organisations, NGOs and corporations with the possibility to support and replicate successful projects that young people are already implementing around the world, promoting good practices and solutions related to global social problems.
+=======
 Text: 
 
 The Social Innovation Warehouse is the first online repository of SDG-related projects that young people have developed and successfully implemented worldwide.
@@ -11,6 +18,7 @@ The platform provides **corporations**, international organisations, NGOs and **
 ----
 
 Text2: Members of the Social Innovation Warehouse have access to project portfolios crafted just for them, ad-hoc, based on their CSR strategy or topics, SDGs and countries of interest. They can also become agents of change both outside and inside the company by offering their staff the possibility of mentoring young innovators, which teaches them soft skills while helping social ventures grow.
+>>>>>>> b694bf874acb7434f16953c84821b519aa1d7f8a
 
 ----
 
@@ -57,6 +65,21 @@ titulo
 
 ----
 
+<<<<<<< HEAD
+Icon1: **Companies** get to become agents of change both inside–by giving their staff an extra sense of purpose and the opportunity to learn soft skills by mentoring young innovators– and outside– by improving living conditions for entire communities - empower young leaders and help them make a real change.
+
+----
+
+Icon2: **Academia** institutions have the opportunity to nominate students with social innovation projects to enhance their visibility, provide learning resources from their curricula for the Capacity Building Programme as part of their CSR strategies, give their staff the opportunity to volunteer as mentors and have young innovators offer in-campus inspiring presentations.
+
+----
+
+Icon3: **Governments** get to empower young leaders by selecting projects that are making a real impact in their countries and providing them with a Capacity Building Programme and worldwide networking to promote their projects in a global scale. Through the SIW, public sector officials can map trending issues and topics in their territory that are key inputs for public policy-making.
+
+----
+
+Icon4: **International organisations** get to boost young leaders and help them make a real difference by promoting innovative projects that tackle SDG-related issues and increase their impact. Thanks to the SIW, IIOO can get in contact with fresh, proven social innovation ideas and map trending issues and topics of interest worldwide.
+=======
 Icon1: **COMPANIES** can get in contact with fresh ideas that work, related to CSR and innovation targets that are trending worldwide, while giving their staff an extra sense of purpose and making a real change.
 
 ----
@@ -70,6 +93,7 @@ Icon3: **GOVERNMENTS** showcase local young leaders whose projects are making a 
 ----
 
 Icon4: Universities and other **ACADEMIA** institutions can share knowledge and resources with young leaders from around the world and nominate their students' social innovation projects.
+>>>>>>> b694bf874acb7434f16953c84821b519aa1d7f8a
 
 ----
 

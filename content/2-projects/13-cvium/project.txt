@@ -1,0 +1,29 @@
+Title: Cvium
+
+----
+
+Intro: 
+
+----
+
+Text: Cvium is a crowdsourcing platform for the world's social and environmental problems. A place where citizens, corporations and organizations are aligned to build their own society. Through campaigns, Cvium redesigns social collaboration in order to close the gap between problems and solutions.
+
+----
+
+Location: Ciudad de México
+
+----
+
+Quote: 
+
+----
+
+Photo: logo-sin-background.png
+
+----
+
+Tags: sdg-1,sdg-10,sdg-11,sdg-13,sdg-17
+
+----
+
+Text2: 
