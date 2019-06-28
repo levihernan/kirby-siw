@@ -39,7 +39,7 @@
 
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 heading-section ftco-animate text-center">
+      <div class="col-md-7 heading-section ftco-animate text-center display-5">
         <!-- <h3 class="subheading">texto?</h3> -->
         <p class="mb-1"><?= $page->texto1()->kirbytext() ?></p>
       </div>
@@ -50,7 +50,7 @@
           <div class="text-center">
             <h2 class="heading">Young Innovators</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT A PROJECT.png" alt="">
-            <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
+            <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4 has-background-palette-1">Submit your Project</a>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           <div class="text-center">
             <h2 class="heading">Everyone</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
-            <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
+            <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4 has-background-palette-2">Browse Projects</a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
           <div class="text-center">
             <h2 class="heading">Organizations</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BECOME A PARTNER.png" alt="">
-            <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
+            <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4 has-background-palette-3">Become a Partner</a>
           </div>
         </div>
       </div>
@@ -268,11 +268,6 @@
         </div>
       </section>
 
-
-
-
-
-
       <section class="ftco-section ftco-intro back-left" style="background-image: url(<?= $site->url() ?>/assets/images/graphics/crops/VV-22.png);">
         <div class="container">
           <div class="row justify-content-end">
@@ -290,9 +285,8 @@
         </div>
       </section>
 
-
       <section class="ftco-section">
-        <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.76 34"><defs><style>.cls-1{fill:#ed254e;opacity:0.5;}</style></defs><title>Asset 112</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M13.76,0A13.73,13.73,0,0,1,24.92,5.72h0c6.66,9.22,8.19,9.37,15.44,10.61h0A8.9,8.9,0,1,1,33.27,32h0c-5.71-4.61-6.84-5.67-18.09-4.58H15.1c-.44,0-.89.07-1.34.07A13.76,13.76,0,0,1,13.76,0Z"/></g></g></svg>
+        <svg class="bg-svg bg-center r-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.76 34"><defs><style>.cls-1{fill:#ed254e;opacity:0.5;}</style></defs><title>Asset 112</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M13.76,0A13.73,13.73,0,0,1,24.92,5.72h0c6.66,9.22,8.19,9.37,15.44,10.61h0A8.9,8.9,0,1,1,33.27,32h0c-5.71-4.61-6.84-5.67-18.09-4.58H15.1c-.44,0-.89.07-1.34.07A13.76,13.76,0,0,1,13.76,0Z"/></g></g></svg>
         <div class="container">
           <div class="row justify-content-center mb-5">
             <div class="col-md-12 heading-section text-center ftco-animate">
@@ -306,7 +300,7 @@
 
               <div class="col-6 col-md my-2 coach ftco-animate">
                 <img class="sdg-image" src="<?= $site->url.'/'.$team->uri() ?>" alt="">
-                <div class="align-content-center d-flex flex-column h-100 justify-content-center text text-center">
+                <div class="align-content-center d-flex flex-column h-50 justify-content-center text text-center">
                   <span class="subheading"><?= $team->role()->text() ?></span>
                   <h3><a href="<?= $team->link() ?>"><?= $team->title()->text() ?></a></h3>
                 </div>
@@ -326,6 +320,7 @@
         <section class="ftco-section testimony-section">
           <div class="container">
             <svg class="bg-svg bg-center" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 53.93 32.61"><defs><style>.cls-1{fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="92.59" y1="600.95" x2="56.8" y2="627.52" gradientTransform="matrix(0.99, 0.14, 0.14, -0.99, -133.04, 613.24)" gradientUnits="userSpaceOnUse"><stop offset="0.02" stop-color="#ffbf00"/><stop offset="0.18" stop-color="#ffbb02"/><stop offset="0.34" stop-color="#fdaf08"/><stop offset="0.49" stop-color="#fb9b12"/><stop offset="0.65" stop-color="#f88020"/><stop offset="0.81" stop-color="#f35c32"/><stop offset="0.96" stop-color="#ee3048"/><stop offset="1" stop-color="#ed254e"/></linearGradient></defs><title>Asset 1612</title><g id="Layer_2" data-name="Layer 2"><g id="Ñëîé_1" data-name="Ñëîé 1"><path class="cls-1" d="M6.64,31.47c-6.68-3.08-8.91-18-4-21.78,4.55-3.48,11,5.59,22.63,4.25C39.12,12.35,44.1-2,49.5.23c5.15,2.11,6.88,17.66-.72,26.16-2.87,3.21-8.48,7-14,6.08-3.55-.59-3.64-2.57-7.64-3.11-4.26-.59-5.62,1.46-12.45,2.26C10.59,32.1,8.53,32.34,6.64,31.47Z"/></g></g></svg>
+
             <div class="row justify-content-center mb-5 pb-3">
               <div class="col-md-7 heading-section ftco-animate text-center">
                 <h3 class="subheading">Testimony</h3>
@@ -334,10 +329,9 @@
             </div>
 
             <div class="row">
-              <?php foreach ($page->find('quotes')->files() as $quote): ?>
-
-                <div class="col d-flex">
-                  <div class="testimony-wrap p-4 pb-5 my-auto">
+              <div class="col d-flex carousel-testimony owl-carousel">
+                <?php foreach ($page->find('quotes')->files() as $quote): ?>
+                  <div class="item testimony-wrap p-4 pb-5 my-auto ">
                     <div class="text">
                       <div class="line pl-5">
                         <p class="mb-4 pb-1"><?= $quote->text()->text() ?></p>
@@ -355,8 +349,8 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              <?php endforeach ?>
+                <?php endforeach ?>
+              </div>
             </div>
           </div>
         </section>

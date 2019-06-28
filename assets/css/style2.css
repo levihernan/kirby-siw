@@ -350,34 +350,6 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
-.display-5 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.2; }
-
-
-/* custom pallete */
-
-.has-background-palette-1 {
-  background-color: #941b80!important;
-}
-
-.has-background-palette-2 {
-  background-color: #ed254e!important;
-}
-
-.has-background-palette-3 {
-  background-color: #3891a6!important;
-}
-
-.has-background-palette-4 {
-  background-color: #ffbf00!important;
-}
-
-.has-background-palette-5 {
-  background-color: #8ee3ef!important;
-}
-
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -6110,12 +6082,6 @@ button.bg-dark:focus {
 .mh-100 {
   max-height: 100% !important; }
 
-.r-150 {    
-  -webkit-transform: rotate(150deg);
-  -ms-transform: rotate(150deg);
-  transform: rotate(150deg);
-}
-
 .m-0 {
   margin: 0 !important; }
 
@@ -7854,10 +7820,9 @@ h1, h2, h3, h4, h5,
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 500; 
-    margin-top: auto;}
+    font-weight: 500; }
   .coach .text h3 {
-    font-size: 20px;
+    font-size: 22px;
     color: #000; }
     .coach .text h3 a {
       color: #000; }

@@ -43,14 +43,14 @@
 	loader();
 
 	// Scrollax
-   $.Scrollax();
+   //$.Scrollax();
 
 	var carousel = function() {
 		$('.carousel-testimony').owlCarousel({
 			center: true,
 			loop: false,
 			items:1,
-			margin: 30,
+			margin: 10,
 			stagePadding: 0,
 			nav: false,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
@@ -66,8 +66,8 @@
 				}
 			}
 		});
-
 	};
+	
 	carousel();
 
 	$('nav .dropdown').hover(function(){
