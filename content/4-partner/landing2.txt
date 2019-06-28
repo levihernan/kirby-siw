@@ -2,11 +2,15 @@ Title: Become a Partner
 
 ----
 
-Text: The SIW is the space where companies, governments and organizations can get in contact with fresh ideas that work, brought forward by young innovators.
+Text: 
+
+The Social Innovation Warehouse is the first online repository of SDG-related projects that young people have developed and successfully implemented worldwide.
+
+The platform provides **corporations**, international organisations, NGOs and **governments** with the possibility to support and replicate successful projects that young people are already implementing around the world, promoting good practices and solutions related to global social problems.
 
 ----
 
-Text2: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Text2: Members of the Social Innovation Warehouse have access to project portfolios crafted just for them, ad-hoc, based on their CSR strategy or topics, SDGs and countries of interest. They can also become agents of change both outside and inside the company by offering their staff the possibility of mentoring young innovators, which teaches them soft skills while helping social ventures grow.
 
 ----
 
@@ -53,19 +57,19 @@ titulo
 
 ----
 
-Icon1: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon1: **COMPANIES** can get in contact with fresh ideas that work, related to CSR and innovation targets that are trending worldwide, while giving their staff an extra sense of purpose and making a real change.
 
 ----
 
-Icon2: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon2: As members, **INTERNATIONAL ORGANISATIONS** empower young leaders and help them make a real difference by promoting innovative projects that tackle SDG-related issues and increase their impact.
 
 ----
 
-Icon3: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon3: **GOVERNMENTS** showcase local young leaders whose projects are making a real impact and provide them with a Capacity Building Programme and worldwide networking to help them scale up.
 
 ----
 
-Icon4: A small river named Duden flows by their place and supplies it with the necessary regelialia.
+Icon4: Universities and other **ACADEMIA** institutions can share knowledge and resources with young leaders from around the world and nominate their students' social innovation projects.
 
 ----
 

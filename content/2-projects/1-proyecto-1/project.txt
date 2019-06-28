@@ -6,7 +6,7 @@ Text: The PEP is bringing in every citizen’s phone a new, modern and steady wa
 
 ----
 
-Tags: sdg-1,sdg-3,sdg-6,sdg-16
+Tags: sdg-1,sdg-3,sdg-6
 
 ----
 
