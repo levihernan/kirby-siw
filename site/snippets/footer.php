@@ -73,6 +73,7 @@
     function showProjectsbyKeyWord( keyword ){
       clearInterval(clock)
       clock = setTimeout(() => {
+        $('.filter-tag').removeClass('active') /* Doing keyword search only. */
         $('#projects-hidden .project').each(function(){
           if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1){
            var owl   = $(".owl-carousel").data('owlCarousel');
@@ -97,7 +98,7 @@
     }
 
     function showProjectsbyCat( cat ){
-      console.log("show by : " + cat)
+      $('.filter-tag').removeClass('active')
       if ( cat == 'all'){
         $('#projects-hidden .project').each(function(){
            var owl   = $(".owl-carousel").data('owlCarousel');
@@ -121,6 +122,7 @@
            owl.removeItem(targetPos);
         });
       }
+      $('.filter-tag.' + cat).addClass('active')
     }
 
     // Show filtered elements

@@ -490,8 +490,17 @@ pre {
   background-color: transparent;
   padding: 0.5rem;
   border:none;
+  box-shadow: none!important;
   border-bottom: 2px solid #e7d9d9;
   padding-left: 0.25rem;}
+
+.filter-tag {
+  transition: color 0.25s linear;
+}
+
+.filter-tag.active {
+  color: #941b80;
+}
 
 .container {
   width: 100%;
