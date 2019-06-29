@@ -64,16 +64,16 @@
 
 	var carousel2 = function() {
 		$('.carousel2').owlCarousel({
-			items: 1,
+			items: 3,
 			loop: true,
 			navigation: false,
 			pagination: true,
 			mouseDrag : true,
 			autoWidth:true,
 			stopOnHover: true,
-			itemsDesktop: [1199, 4],
-			itemsDesktopSmall: [980, 3],
-			itemsTablet: [768, 2],
+			itemsDesktop: [1199, 2],
+			itemsDesktopSmall: [980, 2],
+			itemsTablet: [768, 1],
 			itemsMobile: [479, 1],
 		});
 	};

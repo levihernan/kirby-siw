@@ -72,6 +72,7 @@
         </div>
 
         <div class="col-md-8">
+          <div class="items-added-response hide"></div>
           <div id="projects-carousel" class="row owl-carousel testimony-section carousel2">
             <?php foreach ($articles as $article): ?>
               <?php snippet('article', ['article' => $article]) ?>

@@ -71,34 +71,62 @@
     }
 
     function showProjectsbyKeyWord( keyword ){
+      if(keyword===''){
+        return showProjectsbyCat('all')
+      }
+      if(keyword.length < 3){
+        return
+      }
       clearInterval(clock)
       clock = setTimeout(() => {
+        var count = 0
+        var text = ''
         $('.filter-tag').removeClass('active') /* Doing keyword search only. */
+        if($('.items-added-response').is(':visible')){ /* Hide Notification if visible */
+          $('.items-added-response').fadeOut()
+        }
         $('#projects-hidden .project').each(function(){
           if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1){
            var owl   = $(".owl-carousel").data('owlCarousel');
            elem      = $(this).parent().html();
-
            owl.addItem( elem );
            $(this).parent().remove();
           }
         });
-
         $('#projects-carousel .project').each(function(){
           if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) == -1){
            var owl   = $(".owl-carousel").data('owlCarousel');
            targetPos = $(this).parent().index();
            elem      = $(this).parent();
-
            $( elem ).clone().appendTo( $('#projects-hidden') );
            owl.removeItem(targetPos);
+          } else {
+            count++
           }
         });
+
+        setTimeout(() => {
+          if(count===0){
+            text+= "Sorry we could not find any matches with that criteria."
+          } else {
+            text+= "We found " + count + " project"
+            if(count > 1) text+= 's'
+          }
+
+          if($('.items-added-response').is(':hidden')){ /* Show Notification if hidden */
+            $('.items-added-response')  
+              .text(text)
+              .fadeIn()
+          }
+        },500)
       },500)
     }
 
     function showProjectsbyCat( cat ){
       $('.filter-tag').removeClass('active')
+      if($('.items-added-response').is(':visible')){ /* Hide Notification if visible */
+        $('.items-added-response').fadeOut()
+      }      
       if ( cat == 'all'){
         $('#projects-hidden .project').each(function(){
            var owl   = $(".owl-carousel").data('owlCarousel');
