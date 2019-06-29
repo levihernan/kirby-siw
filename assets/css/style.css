@@ -355,31 +355,31 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+/* custom palette */
 
-/* custom pallete */
-
-.has-background-palette-1 {
+.has-buttons-palette .col-md-4:nth-child(1) .btn-primary {
   background-color: #941b80!important;
+  border: none!important;
 }
 
-.btn.has-background-palette-3 {
-  border:none;
+.has-buttons-palette .col-md-4:nth-child(2) .btn-primary {
+  background-color: #ed254e!important;  
+  border: none!important;
 }
 
-.has-background-palette-2 {
-  background-color: #ed254e!important;
+.has-buttons-palette .col-md-4:nth-child(3) .btn-primary {
+  background-color: #3891a6!important;  
+  border: none!important;
 }
 
-.has-background-palette-3 {
-  background-color: #3891a6!important;
+.has-buttons-palette .col-md-4:nth-child(4) .btn-primary {
+  background-color: #ffbf00!important;  
+  border: none!important;
 }
 
-.has-background-palette-4 {
-  background-color: #ffbf00!important;
-}
-
-.has-background-palette-5 {
-  background-color: #8ee3ef!important;
+.has-buttons-palette .col-md-4:nth-child(5) .btn-primary {
+  background-color: #8ee3ef!important;  
+  border: none!important;
 }
 
 hr {

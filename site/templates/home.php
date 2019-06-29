@@ -44,13 +44,13 @@
         <p class="mb-1"><?= $page->texto1()->kirbytext() ?></p>
       </div>
     </div>
-    <div class="row">
+    <div class="row has-buttons-palette">
       <div class="col-md-4 mb-4 ftco-animate">
         <div class="block-7">
           <div class="text-center">
             <h2 class="heading">Young Innovators</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - SUBMIT A PROJECT.png" alt="">
-            <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4 has-background-palette-1">Submit your Project</a>
+            <a href="<?= $site->url() ?>/nominate" class="btn btn-primary d-block px-2 py-4">Submit your Project</a>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
           <div class="text-center">
             <h2 class="heading">Everyone</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BROWSE.png" alt="">
-            <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4 has-background-palette-2">Browse Projects</a>
+            <a href="<?= $site->url() ?>/projects" class="btn btn-primary d-block px-2 py-4">Browse Projects</a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
           <div class="text-center">
             <h2 class="heading">Organizations</h2>
             <img class="siw-loguitos px-4" src="<?= $site->url()?>/assets/images/HOME - BECOME A PARTNER.png" alt="">
-            <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4 has-background-palette-3">Become a Partner</a>
+            <a href="<?= $site->url() ?>/partner" class="btn btn-primary d-block px-2 py-4">Become a Partner</a>
           </div>
         </div>
       </div>

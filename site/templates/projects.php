@@ -31,7 +31,7 @@
 
         <div class="col-4">
           <div class="form-group">
-            <input type="text" class="is-text-filterable" onkeyup="showProjectsbyKeyWord(this.value)" placeholder="Search in projects..." autofocus required>
+            <input type="text" class="is-text-filterable" onkeyup="showProjectsbyKeyWord(this.value)" placeholder="Search in Projects ..." autofocus required>
           </div>
 
           <div class="locations">
