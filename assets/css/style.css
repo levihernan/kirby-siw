@@ -362,6 +362,10 @@ h6, .h6 {
   background-color: #941b80!important;
 }
 
+.btn.has-background-palette-3 {
+  border:none;
+}
+
 .has-background-palette-2 {
   background-color: #ed254e!important;
 }
@@ -481,6 +485,13 @@ pre {
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
+
+.is-text-filterable {
+  background-color: transparent;
+  padding: 0.5rem;
+  border:none;
+  border-bottom: 2px solid #e7d9d9;
+  padding-left: 0.25rem;}
 
 .container {
   width: 100%;
