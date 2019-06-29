@@ -7504,7 +7504,7 @@ h1, h2, h3, h4, h5,
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
-    opacity: .4; }
+    opacity: .9; }
     .owl-carousel .owl-item.active {
       opacity: 1; }
   .owl-carousel .owl-nav {
@@ -7851,7 +7851,7 @@ h1, h2, h3, h4, h5,
   .coach .text .subheading {
     font-size: 13px;
     color: rgba(0, 0, 0, 0.4);
-    font-size: 12px;
+    font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500; 
@@ -8003,9 +8003,10 @@ h1, h2, h3, h4, h5,
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 0, 0, 0.8); }
   .testimony-wrap .user-img {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
+    display: inline-table;
     position: relative; }
   .testimony-wrap .name {
     font-weight: 500;
@@ -8425,7 +8426,7 @@ textarea.form-control {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 60%;
+    width: 65%;
     margin: 0 auto; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
       background: #941b80 !important;

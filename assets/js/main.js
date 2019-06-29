@@ -47,28 +47,38 @@
 
 	var carousel = function() {
 		$('.carousel-testimony').owlCarousel({
-			center: true,
-			loop: false,
-			items:1,
-			margin: 10,
-			stagePadding: 0,
-			nav: false,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 3
-				},
-				1000:{
-					items: 3
-				}
-			}
+	        autoPlay: false,
+	        slideSpeed: 2000,
+	        pagination: false,
+			navigation: false,
+			pagination: true,
+			items: 3,
+   			itemsDesktop: [1199, 3],
+	        itemsDesktopSmall: [980, 2],
+	        itemsTablet: [768, 1],
+			itemsMobile: [479, 1],
 		});
 	};
 	
 	carousel();
+
+	var carousel2 = function() {
+		$('.carousel2').owlCarousel({
+			items: 2,
+			loop: true,
+			navigation: false,
+			pagination: true,
+			mouseDrag : true,
+			autoWidth:true,
+			stopOnHover: true,
+			itemsDesktop: [1199, 2],
+			itemsDesktopSmall: [980, 2],
+			itemsTablet: [768, 2],
+			itemsMobile: [479, 2],		  
+		});
+	};
+	
+	carousel2();
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);

@@ -5,9 +5,11 @@
 
   <?= snippet('navbar') ?>
 
-  <section class="ftco-section ftco-intro back-left back-project" style="background-image: url('<?= $page->photo()->toFile()->url() ?>">
+  <section class="ftco-section ftco-intro">
     <div class="container">
-      <div class="row justify-content-end pt-5">
+      <div class="row  pt-5">
+        <div class="col-md-6 back-left-md back-project" style="background-image: url('<?= $page->photo()->toFile()->url() ?>">
+        </div>
 
         <div class="col-md-6">
           <div class="heading-section ftco-animate">
@@ -71,7 +73,7 @@
 
         <?php if ( $page->files()->find('one-pager.pdf') ) : ?>
         <div class="col-md-6 mb-4">
-          <a target="_blank" href="<?= $page->files()->find('one-pager.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Download one-pager</a>
+          <a target="_blank" href="<?= $page->files()->find('one-pager.pdf')->url() ?>" class="btn btn-primary d-block px-2 py-4">Download One-Pager</a>
         </div>
       <?php endif ?>
       <?php if ( $page->files()->find('theory-of-change.pdf') ) : ?>
@@ -100,8 +102,8 @@
           <?= $page->bullets()->kirbytext() ?>
         </div>
 
+      <?php if(strlen(trim($page->quote()->text()))):?>
         <div class="testimony-wrap p-4 pb-5">
-
           <div class="text">
             <div class="line pl-5">
               <p class="mb-4 pb-1"><?= $page->quote()->text() ?></p>
@@ -111,15 +113,15 @@
             </div>
           </div>
         </div>
-
+      <?php endif;?>
 
       </div>
     </div>
   </section>
 
-
-
-
+  <section class="ftco-section contact-section">
+    <?php snippet('contact-tile') ?>
+  </section>
 
 
 <?= snippet('footer') ?>

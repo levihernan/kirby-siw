@@ -7,8 +7,8 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/open-iconic-bootstrap.min.css">
   <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/animate.css">
-  <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/owl.carousel.1.3.3.min.css">
+  <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/owl.theme.1.3.3.min.css">
   <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/magnific-popup.css">
   <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/aos.css">
   <link rel="stylesheet" href="<?= $site->url() ?>/assets/css/ionicons.min.css">

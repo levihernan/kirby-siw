@@ -36,7 +36,7 @@
   <script src="<?= $site->url() ?>/assets/js/jquery.easing.1.3.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.waypoints.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.stellar.min.js"></script>
-  <script src="<?= $site->url() ?>/assets/js/owl.carousel.min.js"></script>
+  <script src="<?= $site->url() ?>/assets/js/owl.carousel.1.3.3.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.magnific-popup.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/aos.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.animateNumber.min.js"></script>
@@ -50,72 +50,105 @@
   <script type="text/javascript">
   $( document ).ready(function() {
     console.log( "ready!" );
+   
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
   });
-  </script>
 
-  <script>
-  // $(document).ready(function(){
-  //   $("#myInput").on("keyup", function() {
-  //     var value = $(this).val().toLowerCase();
-  //     $("#myTable tr").filter(function() {
-  //       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-  //     });
-  //   });
-  // });
-  // var store
-  //
-  // $("#myInput").on("keyup", function() {
-  //       var value = $(this).val().toLowerCase();
-  //       store = value;
-  //       $("#myProjects div").filter(function() {
-  //         $(this).toggle($(this).attr('class').indexOf(value) > -1)
-  //         console.log(value)
-  //         console.log($(this).attr('class').indexOf(value))
-  //       });
-  //
-  //     });
-
-      filterSelection("all") // Execute the function and show all columns
-      function filterSelection(c) {
-        var x, i;
-        x = document.getElementsByClassName("myProject");
-        if (c == "all") c = "";
-        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-        for (i = 0; i < x.length; i++) {
-          w3RemoveClass(x[i], "show");
-          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-        }
+   var clock = 0
+   
+    filterSelection("all") // Execute the function and show all columns
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("myProject");
+      if (c == "all") c = "";
+      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
       }
+    }
 
-      // Show filtered elements
-      function w3AddClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-          if (arr1.indexOf(arr2[i]) == -1) {
-            element.className += " " + arr2[i];
+    function showProjectsbyKeyWord( keyword ){
+      clearInterval(clock)
+      clock = setTimeout(() => {
+        $('#projects-hidden .project').each(function(){
+          if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1){
+           var owl   = $(".owl-carousel").data('owlCarousel');
+           elem      = $(this).parent().html();
+
+           owl.addItem( elem );
+           $(this).parent().remove();
           }
-        }
-      }
+        });
 
-      // Hide elements that are not selected
-      function w3RemoveClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-          while (arr1.indexOf(arr2[i]) > -1) {
-            arr1.splice(arr1.indexOf(arr2[i]), 1);
+        $('#projects-carousel .project').each(function(){
+          if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) == -1){
+           var owl   = $(".owl-carousel").data('owlCarousel');
+           targetPos = $(this).parent().index();
+           elem      = $(this).parent();
+
+           $( elem ).clone().appendTo( $('#projects-hidden') );
+           owl.removeItem(targetPos);
           }
-        }
-        element.className = arr1.join(" ");
-      }
+        });
+      },500)
+    }
 
-  </script>
+    function showProjectsbyCat( cat ){
+      console.log("show by : " + cat)
+      if ( cat == 'all'){
+        $('#projects-hidden .project').each(function(){
+           var owl   = $(".owl-carousel").data('owlCarousel');
+           elem      = $(this).parent().html();
+           owl.addItem( elem );
+           $(this).parent().remove();
+        });
+      }else{
+        $('#projects-hidden .project.'+ cat).each(function(){
+           var owl   = $(".owl-carousel").data('owlCarousel');
+           elem      = $(this).parent().html();
+           owl.addItem( elem );
+           $(this).parent().remove();
+        });
+
+        $('#projects-carousel .project:not(.project.'+ cat + ')').each(function(){
+           var owl   = $(".owl-carousel").data('owlCarousel');
+           targetPos = $(this).parent().index();
+           elem      = $(this).parent();
+           $( elem ).clone().appendTo( $('#projects-hidden') );
+           owl.removeItem(targetPos);
+        });
+      }
+    }
+
+    // Show filtered elements
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
+
+    // Hide elements that are not selected
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+  </script>    
 
 </body>
 </html>
