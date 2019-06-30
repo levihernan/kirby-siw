@@ -31,19 +31,19 @@
 
         <div class="col-md-4">
           <div class="form-group">
-            <input type="text" class="is-text-filterable" onkeyup="showProjectsbyKeyWord(this.value)" placeholder="Search in Projects ..." autofocus required>
+            <input type="text" class="keyword-link is-text-filterable" placeholder="Search in Projects ..." autofocus required>
           </div>
 
           <div class="locations">
-            <span class="mx-2 cursor-pointer" onclick="showProjectsbyCat('all')">
+            <span class="mx-2">
               <i class="fa fa-globe"></i>
-              <span class="filter-tag all"></span> All
+              <span class="location-link" name="all">All</span> 
             </span>
             <?php $tags = $page->children()->pluck('location', ',', true); sort($tags) ?>
             <?php foreach($tags as $tag): ?>
-              <span class="mx-2 cursor-pointer" onclick="showProjectsbyCat('<?= strtolower(str_replace(' ','-',$tag)) ?>')">
+              <span class="mx-2">
                 <i class="fa fa-globe"></i>
-                <span class="filter-tag <?= strtolower(str_replace(' ','-',$tag)) ?>"><?= $tag ?></span>       
+                <span class="location-link" name="<?= $tag ?>"><?= $tag ?></span>       
               </span>
             <?php endforeach ?>
           </div>
@@ -53,18 +53,11 @@
               <?php $counter = 0 ?>
               <?php foreach ($sdgs->files() as $sdg): ?>
               <?php $counter ++ ?>
-
               <!-- <span class="sdg-text mx-2" onclick="filterSelection('lala')">
                 <i class="fa fa-check"></i><?= $sdg->title() ?>
               </span> -->
               <div class="col-md-4 p-1 col-2">
-                <img onclick="showProjectsbyCat('<?php if ($counter < 18) {
-                  echo 'sdg-'.$counter;
-                }
-                else {
-                  echo 'all';
-                }
-                ?>')" class="sdg-image ftco-animate" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
+                <img class="sdg-image tag-link ftco-animate" name="<?php if ($counter < 18) { echo 'sdg-'.$counter; } else { echo 'all';}?>" src="<?= $site->url.'/'.$sdg->uri() ?>" alt="" data-toggle="tooltip" data-placement="top" title="<?= $sdg->text() ?>">
               </div>
               <?php endforeach ?>
             </div>
@@ -72,16 +65,54 @@
         </div>
 
         <div class="col-md-8">
-          <div class="items-added-response hide"></div>
-          <div id="projects-carousel" class="owl-carousel testimony-section carousel2">
-            <?php foreach ($articles as $article): ?>
-              <?php snippet('article', ['article' => $article]) ?>
-            <?php endforeach ?>
-          </div>
-          <div id="projects-hidden" class="hide"></div>
+          <div class="projects-ajax hide"></div>
         </div>
       </div>
     </div>
   </section>
+
+  <script id="project" type="text/x-jsrender">
+    <div class="row">
+      <div class="projects-ajax-response col-12">
+      {{if count}}
+      We found {{:count}} project{{if count>1}}s{{/if}}.
+      {{else}}
+      Sorry, We could not find any project with the word <b>{{:keyword}}</b>.
+      {{/if}}
+      </div>
+    </div>
+    <div class="row">
+    {{props items.data}}
+      <div class="project col-lg-4 col-md-6 col-sm-12">
+        <div class="blog-entry justify-content-end">
+          <div class="text p-4 mt-1 float-right d-block">
+            <div class="d-flex align-items-center mb-4">
+            </div>
+            <h3 class="heading mt-2"><a href="{{:prop.url}}">{{:prop.title}}</a>
+            </h3>
+            {{:prop.intro}}
+            <p>
+              <i class="fa fa-globe"></i> {{:prop.location}}
+            </p>
+            <p>
+              <i class="fa fa-check"></i> <span class="text-uppercase">{{:prop.tags}}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    {{/props}}
+    </div>
+    <div class="row justify-content-center">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <!--li class="page-item"><a class="page-link" href="#">Previous</a></li-->
+          {{props pages}}
+          <li class="page-item"><a class="page-link" name="{{>prop+1}}" href="#">{{>prop+1}}</a></li>
+          {{/props}}
+          <!--li class="page-item"><a class="page-link" href="#">Next</a></li-->
+        </ul>
+      </nav>    
+    </div>
+  </script>
 
 <?php snippet('footer') ?>

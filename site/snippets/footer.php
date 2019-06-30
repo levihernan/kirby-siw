@@ -43,143 +43,20 @@
   <script src="<?= $site->url() ?>/assets/js/bootstrap-datepicker.js"></script>
   <script src="<?= $site->url() ?>/assets/js/jquery.timepicker.min.js"></script>
   <script src="<?= $site->url() ?>/assets/js/scrollax.min.js"></script>
+  
+  <?php if($page->slug()==='projects'):?>
+    <script src="<?= $site->url() ?>/assets/js/jsrender.min.js"></script>
+    <script src="<?= $site->url() ?>/assets/js/projects.js"></script>
+  <?php endif;?>
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0wkyWYeRR83eCb4i16--J_6fdTeP7oTA&callback=initMap"></script> -->
   <!-- <script src="<?= $site->url() ?>/assets/js/google-map.js"></script> -->
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
   <script src="<?= $site->url() ?>/assets/js/tooltip.js"></script>
+  <script src="<?= $site->url() ?>/assets/js/util.js"></script>
   <script type="text/javascript">
-  $( document ).ready(function() {
-    console.log( "ready!" );
-   
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
-  });
-
-   var clock = 0
-   
-    filterSelection("all") // Execute the function and show all columns
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("myProject");
-      if (c == "all") c = "";
-      // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
-
-    function showProjectsbyKeyWord( keyword ){
-      if(keyword===''){
-        return showProjectsbyCat('all')
-      }
-      if(keyword.length < 3){
-        return
-      }
-      clearInterval(clock)
-      clock = setTimeout(() => {
-        var count = 0
-        var text = ''
-        $('.filter-tag').removeClass('active') /* Doing keyword search only. */
-        if($('.items-added-response').is(':visible')){ /* Hide Notification if visible */
-          $('.items-added-response').fadeOut()
-        }
-        $('#projects-hidden .project').each(function(){
-          if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) > -1){
-           var owl   = $(".owl-carousel").data('owlCarousel');
-           elem      = $(this).parent().html();
-           owl.addItem( elem );
-           $(this).parent().remove();
-          }
-        });
-        $('#projects-carousel .project').each(function(){
-          if($(this).text().toLowerCase().indexOf(keyword.toLowerCase()) == -1){
-           var owl   = $(".owl-carousel").data('owlCarousel');
-           targetPos = $(this).parent().index();
-           elem      = $(this).parent();
-           $( elem ).clone().appendTo( $('#projects-hidden') );
-           owl.removeItem(targetPos);
-          } else {
-            count++
-          }
-        });
-
-        setTimeout(() => {
-          if(count===0){
-            text+= "Sorry we could not find any matches with that criteria."
-          } else {
-            text+= "We found " + count + " project"
-            if(count > 1) text+= 's'
-          }
-
-          if($('.items-added-response').is(':hidden')){ /* Show Notification if hidden */
-            $('.items-added-response')  
-              .text(text)
-              .fadeIn()
-          }
-        },500)
-      },500)
-    }
-
-    function showProjectsbyCat( cat ){
-      $('.filter-tag').removeClass('active')
-      $('.is-text-filterable').val('')
-
-      if($('.items-added-response').is(':visible')){ /* Hide Notification if visible */
-        $('.items-added-response').fadeOut()
-      }      
-      if ( cat == 'all'){
-        $('#projects-hidden .project').each(function(){
-           var owl   = $(".owl-carousel").data('owlCarousel');
-           elem      = $(this).parent().html();
-           owl.addItem( elem );
-           $(this).parent().remove();
-        });
-      }else{
-        $('#projects-hidden .project.'+ cat).each(function(){
-           var owl   = $(".owl-carousel").data('owlCarousel');
-           elem      = $(this).parent().html();
-           owl.addItem( elem );
-           $(this).parent().remove();
-        });
-
-        $('#projects-carousel .project:not(.project.'+ cat + ')').each(function(){
-           var owl   = $(".owl-carousel").data('owlCarousel');
-           targetPos = $(this).parent().index();
-           elem      = $(this).parent();
-           $( elem ).clone().appendTo( $('#projects-hidden') );
-           owl.removeItem(targetPos);
-        });
-      }
-      $('.filter-tag.' + cat).addClass('active')
-    }
-
-    // Show filtered elements
-    function w3AddClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {
-          element.className += " " + arr2[i];
-        }
-      }
-    }
-
-    // Hide elements that are not selected
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
-        }
-      }
-      element.className = arr1.join(" ");
-    }
-
   </script>    
 
 </body>

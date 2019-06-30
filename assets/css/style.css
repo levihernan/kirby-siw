@@ -356,7 +356,8 @@ h6, .h6 {
   line-height: 1.2; }
 
 .project {
-  margin: 0 0.25rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 /* custom palette */
@@ -503,14 +504,18 @@ pre {
   padding: 0.5rem;
   border:none;
   box-shadow: none!important;
-  border-bottom: 2px solid #e7d9d9;
+  border-bottom: 1px solid #e7d9d9;
   padding-left: 0.25rem;}
 
-.filter-tag {
+.location-link {
+  cursor: pointer;
   transition: color 0.25s linear;
 }
 
-.filter-tag.active {
+.location-link:hover {
+  color: #941b80;
+}
+.location-link.active {
   color: #941b80;
 }
 
