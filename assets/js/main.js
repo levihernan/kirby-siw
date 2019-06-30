@@ -64,8 +64,8 @@
 
 	var carousel2 = function() {
 		$('.carousel2').owlCarousel({
-			items: 3,
-			loop: true,
+			items: 2,
+			loop: false,
 			navigation: false,
 			pagination: true,
 			mouseDrag : true,

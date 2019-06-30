@@ -57,7 +57,7 @@
               <!-- <span class="sdg-text mx-2" onclick="filterSelection('lala')">
                 <i class="fa fa-check"></i><?= $sdg->title() ?>
               </span> -->
-              <div class="col-md-4 my-2">
+              <div class="col-md-4 p-1 col-2">
                 <img onclick="showProjectsbyCat('<?php if ($counter < 18) {
                   echo 'sdg-'.$counter;
                 }
@@ -73,7 +73,7 @@
 
         <div class="col-md-8">
           <div class="items-added-response hide"></div>
-          <div id="projects-carousel" class="row owl-carousel testimony-section carousel2">
+          <div id="projects-carousel" class="owl-carousel testimony-section carousel2">
             <?php foreach ($articles as $article): ?>
               <?php snippet('article', ['article' => $article]) ?>
             <?php endforeach ?>

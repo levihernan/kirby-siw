@@ -53,7 +53,7 @@ img.siw-loguitos {
 
 .back-left-md {
   background-size: contain;
-  background-position: center center!important;
+  background-position: center top!important;
   background-repeat: no-repeat;
 }
 
@@ -199,9 +199,12 @@ nav#ftco-navbar.scrolled{
 nav#ftco-navbar{
   display: none;
 }
+
 .coach{
-    /* height: 35vw; */
-}
+  padding-bottom: 2rem;}
+.coach .text {
+  height: 35%;}
+
 .align-content-center.d-flex.flex-column.h-100.justify-content-center.text.text-center {
     justify-content: flex-start !important;
 }

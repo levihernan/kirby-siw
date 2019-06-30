@@ -46,7 +46,7 @@
   <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0wkyWYeRR83eCb4i16--J_6fdTeP7oTA&callback=initMap"></script> -->
   <!-- <script src="<?= $site->url() ?>/assets/js/google-map.js"></script> -->
   <script src="<?= $site->url() ?>/assets/js/main.js"></script>
-  <script src="<?= $site->url() ?>/assets/js/bootstrap-tooltip.js"></script>
+  <script src="<?= $site->url() ?>/assets/js/tooltip.js"></script>
   <script type="text/javascript">
   $( document ).ready(function() {
     console.log( "ready!" );
@@ -124,6 +124,8 @@
 
     function showProjectsbyCat( cat ){
       $('.filter-tag').removeClass('active')
+      $('.is-text-filterable').val('')
+
       if($('.items-added-response').is(':visible')){ /* Hide Notification if visible */
         $('.items-added-response').fadeOut()
       }      

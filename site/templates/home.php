@@ -300,7 +300,7 @@
 
               <div class="col-6 col-md my-2 coach ftco-animate">
                 <img class="sdg-image" src="<?= $site->url.'/'.$team->uri() ?>" alt="">
-                <div class="align-content-center d-flex flex-column h-50 justify-content-center text text-center">
+                <div class="align-content-center d-flex flex-column justify-content-center text text-center">
                   <span class="subheading"><?= $team->role()->text() ?></span>
                   <h3><a href="<?= $team->link() ?>"><?= $team->title()->text() ?></a></h3>
                 </div>
