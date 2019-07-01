@@ -14,7 +14,8 @@ $(function () {
 			tag:tag,
 			location:location
 		}
-		$('.projects-ajax-response').text("Searching, please wait...")
+		$('.projects-ajax-response').text('')
+		$('#ftco-loader').addClass('show')
 		$.ajax({
 			url:'/api/v1/projects',
 			method:'get',
@@ -26,6 +27,7 @@ $(function () {
 				})
 				$('.page-item').removeClass('active')
 				$('.page-link[name="'+page+'"]').parent().addClass('active')
+				$('#ftco-loader').removeClass('show')
 			}
 		})
 	}
@@ -68,11 +70,20 @@ $(function () {
 		const value = $(e.target).attr('name')
 		$('.keyword-link').val('')
 		$('.location-link').removeClass('active')
-		tag = value
-		page = 1
-		location = null
-		keyword = null
-		paginate()
+		if(value==='all'){
+			$(this).addClass('active')
+			tag = null
+			page = 1
+			keyword = null
+			tag = null
+			paginate()
+		} else {
+			tag = value
+			page = 1
+			location = null
+			keyword = null
+			paginate()
+		}
 		return false
 	})
 

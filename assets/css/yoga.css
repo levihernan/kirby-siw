@@ -66,6 +66,7 @@ img.siw-loguitos {
   border-radius: 3px;
       /* margin-bottom: -40px; */
   transition: all ease 0.5s;
+  cursor: pointer;
 }
 .sdg-image:hover{
   padding: 2px;
