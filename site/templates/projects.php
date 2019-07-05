@@ -5,7 +5,7 @@
 
   <?= snippet('navbar') ?>
 
-  <section class="ftco-section ftco-intro back-left" style="background-image: url('<?= $page->photo()->toFile()->url() ?>');">
+  <section class="ftco-section ftco-intro landingBackground bgBig" style="background-image: url('<?= $page->photo()->toFile()->url() ?>');">
     <div class="container">
       <div class="row justify-content-end pt-5">
         <div class="col-md-6">

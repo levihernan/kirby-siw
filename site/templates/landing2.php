@@ -4,7 +4,7 @@
 
   <?= snippet('navbar') ?>
 
-  <section class="ftco-section ftco-intro back-left" style="background-image: url('<?= $page->photo()->toFile()->url() ?>');">
+  <section class="ftco-section ftco-intro landingBackground bgBig" style="background-image: url('<?= $page->photo()->toFile()->url() ?>');">
     <div class="container">
       <div class="row justify-content-end pt-5">
         <div class="col-md-6">
@@ -77,6 +77,7 @@
               </div>
             </div>
           </div>
+        </div>
           <div class="row my-3">
             <div class="col-12">
               <?= $page->text2()->kirbytext() ?>
@@ -86,7 +87,6 @@
 
 
 
-      </div>
     </div>
   </section>
   <section class="ftco-section contact-section">
