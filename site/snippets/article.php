@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 $tags = $article->tags()->split();
 ?>
 
@@ -15,7 +15,7 @@ $tags = $article->tags()->split();
       <p>
         <i class="fa fa-globe"></i> <?= $article->location()->text() ?>
       </p>
-      <p>
+      <p class="sdg-check">
         <i class="fa fa-check"></i>
 
         <?php foreach($tags as $tag): ?>
@@ -24,4 +24,4 @@ $tags = $article->tags()->split();
       </p>
     </div>
   </div>
-</div>
+</div> -->

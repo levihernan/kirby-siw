@@ -8,7 +8,7 @@
   <section class="ftco-section ftco-intro">
     <div class="container">
       <div class="row  pt-5">
-        <div class="col-md-6 back-left-md back-project" style="background-image: url('<?= $page->photo()->toFile()->url() ?>">
+        <div class="col-md-6 back-left-md back-project" style="background-image: url('<?= $page->photo()->toFile()->url() ?>')">
         </div>
 
         <div class="col-md-6">
@@ -18,7 +18,7 @@
           <div class="ftco-animate">
             <?= $page->text()->kirbytext() ?>
 
-            <div class="text p-4 mt-1 float-left d-block">
+            <div class="text p-4 mt-1 d-block">
 
               <!-- <p>
                 <i class="fa fa-check"></i>

@@ -52,9 +52,10 @@ img.siw-loguitos {
 }
 
 .back-left-md {
-  background-size: contain;
+  background-size: 60%;
   background-position: center top!important;
   background-repeat: no-repeat;
+  min-height: 40vh
 }
 
 .cursor-pointer{
@@ -172,7 +173,8 @@ svg:not(:root) {
 @media (max-width: 576px) {
 .hero-wrap{
   background-position-y: 20%;
-  background-size: 100%;
+    background-size: 70%;
+    background-position-x: 50%;
 }
 .bg-svg{
   top: auto !important;
@@ -211,7 +213,7 @@ nav#ftco-navbar{
 }
 /*
 *{
-   overflow-x: hidden; 
+   overflow-x: hidden;
 }*/
 
 .bullet-div{
@@ -231,4 +233,40 @@ nav#ftco-navbar{
 
 .ftco-footer{
   background: #8ee3ef8c
+}
+
+.landingBackground{
+  background-size: 25%;
+  background-position-x: 17.5%;
+  background-position-y: 38%;
+}
+
+  .sdgs-container{
+    font-size: 14px;
+    overflow: auto;
+  }
+
+@media (max-width: 767px) {
+  .landingBackground{
+    background-size: 30% !important;
+    background-position-x: 50% !important;
+    background-position-y: 50px !important;
+  }
+  .sdgs-container{
+    font-size: 10px;
+  }
+}
+
+.sdg-check{
+  font-size: 12px;
+}
+.form-group input{
+  outline: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.locations{
+  font-size: 12px;
+  margin-bottom: 20px;
 }

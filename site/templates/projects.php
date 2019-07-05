@@ -37,13 +37,13 @@
           <div class="locations">
             <span class="mx-2">
               <i class="fa fa-globe"></i>
-              <span class="location-link" name="all">All</span> 
+              <span class="location-link" name="all">All</span>
             </span>
             <?php $tags = $page->children()->pluck('location', ',', true); sort($tags) ?>
             <?php foreach($tags as $tag): ?>
               <span class="mx-2">
                 <i class="fa fa-globe"></i>
-                <span class="location-link" name="<?= $tag ?>"><?= $tag ?></span>       
+                <span class="location-link" name="<?= $tag ?>"><?= $tag ?></span>
               </span>
             <?php endforeach ?>
           </div>
@@ -94,7 +94,7 @@
             <p>
               <i class="fa fa-globe"></i> {{:prop.location}}
             </p>
-            <p>
+            <p class="sdg-check">
               <i class="fa fa-check"></i> <span class="text-uppercase">{{:prop.tags}}</span>
             </p>
           </div>
@@ -111,7 +111,7 @@
           {{/props}}
           <!--li class="page-item"><a class="page-link" href="#">Next</a></li-->
         </ul>
-      </nav>    
+      </nav>
     </div>
   </script>
 

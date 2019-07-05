@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // site/plugins/api.php
 
@@ -11,7 +11,7 @@ kirby()->routes([
         'action' => function() {
             $limit = 6;
             $offset = (get('page')-1)*$limit;
-            $collection = site()->find('projects')->children()->visible(); 
+            $collection = site()->find('projects')->children()->visible();
 
             if(!empty(get('location'))){
                 $collection = $collection->filterBy('location', get('location'));
@@ -24,12 +24,12 @@ kirby()->routes([
             else if(!empty(get('keyword'))) {
                 $collection = $collection->filter(function ($child) {
                     $keyword = strtolower(get('keyword'));
-                    return 
-                        strpos(strtolower($child->title()->html()->toString()), $keyword) !== false || 
-                        strpos(strtolower($child->intro()->kirbytext()->value), $keyword) !== false || 
+                    return
+                        strpos(strtolower($child->title()->html()->toString()), $keyword) !== false ||
+                        strpos(strtolower($child->intro()->kirbytext()->value), $keyword) !== false ||
                         strpos(strtolower($child->text()->kirbytext()->value), $keyword) !== false ||
                         strpos(strtolower($child->location()->html()->toString()), $keyword) !== false;
-                });                
+                });
             }
 
             $items = $collection->offset($offset)->limit($limit)->map(function ($project) {
