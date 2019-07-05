@@ -17,8 +17,8 @@ $(function () {
 		$('.projects-ajax-response').text('')
 		$('#ftco-loader').addClass('show')
 		$.ajax({
-			url:'/api/v1/projects',
-			// url:'/misc/kirby-siw/api/v1/projects',
+			// url:'/api/v1/projects',
+			url:'/misc/kirby-siw/api/v1/projects',
 			method:'get',
 			data: data,
 			success: res => {
